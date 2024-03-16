@@ -12,4 +12,5 @@ add_executable(Program ${SOURCE_FILES})
 target_link_libraries(Program Library)
 
 # Dołącz katalog include podprojektu Program do globalnej listy. Dzięki temu każdy inny podprojekt będzie ten katalog "widział"
+target_include_directories(Program PUBLIC "${CMAKE_SOURCE_DIR}/../library/include/model")
 target_include_directories(Program PUBLIC include)
