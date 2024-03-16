@@ -4,12 +4,20 @@ class Client{
 private:
     string firstName;
     string lastName;
-    int personalID;
+    string personalID;
 
 public:
-    void getInfo(string name,string lastname,int ID){
-        name=firstName;
-        lastname=lastName;
-        ID=personalID;
+    Client(string fName, string lName, string ID) : firstName(fName), lastName(lName), personalID(ID) {
     }
+    ~Client(){
+    }
+    string getFirstName() const;
+    void setFirstName(const string& fName);
+    string getLastName() const;
+    void setLastName(const string& lName);
+    string getPersonalID() const;
+    void setPersonalID(const string& ID);
+    string getInfo();
+private:
+    void printDiagnostic(string message);
 };
