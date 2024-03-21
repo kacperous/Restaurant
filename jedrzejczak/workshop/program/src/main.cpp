@@ -1,11 +1,20 @@
 #include <iostream>
 #include "model/Client.h"
-using namespace std;
-int main(){
-    Client c1("Jan","Kowalski","1");
-    Client *c2= new Client("Wojtek","Szczesny","2");
-    cout<<c1.getInfo()<<endl;
-    cout<<c2->getInfo()<<endl;
-    delete c2;
-	return 0;
+
+int main() {
+    // Dynamically allocated client #1
+    Client *client1 = new Client("Jan", "Kowalski", "12345678901");
+    std::cout << client1->getInfo() << std::endl;
+
+    // Deleting dynamically allocated client #1
+    delete client1;
+
+    // Dynamically allocated client #2
+    Client *client2 = new Client("Anna", "Nowak", "09876543210");
+    std::cout << client2->getInfo() << std::endl;
+
+    // Deleting dynamically allocated client #2
+    delete client2;
+
+    return 0;
 }
