@@ -1,3 +1,6 @@
+# Włączenie testów powoduje pojawienie się celu test w Makefiles
+enable_testing()
+
 # Minimalna wersja cmake konieczna do zbudowania tego projektu
 cmake_minimum_required(VERSION 3.4)
 
@@ -37,5 +40,3 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 add_subdirectory(program)
 add_subdirectory(library)
 
-# Włączenie testów powoduje pojawienie się celu test w Makefiles
-enable_testing()
