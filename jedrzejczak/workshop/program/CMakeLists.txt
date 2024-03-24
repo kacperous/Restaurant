@@ -1,3 +1,6 @@
+# Włączenie testów powoduje pojawienie się celu test w Makefiles
+enable_testing()
+
 cmake_minimum_required(VERSION 3.4)
 
 project(Program)
@@ -14,3 +17,4 @@ target_link_libraries(Program Library)
 # Dołącz katalog include podprojektu Program do globalnej listy. Dzięki temu każdy inny podprojekt będzie ten katalog "widział"
 target_include_directories(Program PUBLIC "${CMAKE_SOURCE_DIR}/../library/include/model")
 target_include_directories(Program PUBLIC include)
+
