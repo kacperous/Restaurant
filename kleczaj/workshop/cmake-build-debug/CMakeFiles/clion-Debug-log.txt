@@ -1,4 +1,0 @@
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -G "CodeBlocks - Unix Makefiles" -S /home/student/CLionProjects/start/kleczaj/workshop -B /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug
