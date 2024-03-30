@@ -31,3 +31,11 @@ string Client::getInfo(){
 void Client::printDiagnostic(string message) {
     cout << message << " - Imię: " << firstName << ", Nazwisko: " << lastName << ", PESEL: " << personalID << endl;
 }
+Adress *Client::getAdress() const {
+    return adress;
+}
+void Client::setAdress(Adress *adr) {
+    if(adr!=nullptr){
+        adress=adr;
+    }
+}

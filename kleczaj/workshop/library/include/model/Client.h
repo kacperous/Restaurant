@@ -1,13 +1,15 @@
+#pragma once
 #include <iostream>
+#include "model/Adress.h"
 using namespace std;
 class Client{
 private:
     string firstName;
     string lastName;
     string personalID;
-
+    Adress *adress;
 public:
-    Client(string fName, string lName, string ID) : firstName(fName), lastName(lName), personalID(ID) {
+    Client(string fName, string lName, string ID, Adress *addr) : firstName(fName), lastName(lName), personalID(ID), adress(addr){
     }
     ~Client(){
     }
@@ -18,6 +20,8 @@ public:
     string getPersonalID() const;
     void setPersonalID(const string& ID);
     string getInfo();
+    Adress *getAdress() const;
+    void setAdress(Adress *adr);
 private:
     void printDiagnostic(string message);
 };

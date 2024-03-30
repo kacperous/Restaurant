@@ -1,0 +1,15 @@
+# ninja log v5
+4	1687	1711395028122907333	library/CMakeFiles/Library.dir/src/model/Adress.cpp.o	ac4e0040e046401b
+2	1731	1711395028167598740	library/CMakeFiles/Library.dir/src/model/Client.cpp.o	30abd2b7364d648e
+17	1949	1711395651541864553	library/CMakeFiles/Library.dir/src/model/Client.cpp.o	30abd2b7364d648e
+16	1950	1711395651541827316	program/CMakeFiles/Program.dir/src/main.cpp.o	e5ed855478f8339e
+18	3080	1711395652670280604	library/CMakeFiles/Library.dir/test/AdressTest.cpp.o	6082fb096e40851f
+36	11938	1711811595014818831	library/CMakeFiles/Library.dir/src/model/Adress.cpp.o	ac4e0040e046401b
+35	11959	1711811595035536663	library/CMakeFiles/Library.dir/src/model/Client.cpp.o	30abd2b7364d648e
+53	1293	1711811884902778190	program/CMakeFiles/Program.dir/src/main.cpp.o	e5ed855478f8339e
+18	1338	1711811942743251974	library/CMakeFiles/Library.dir/src/model/Adress.cpp.o	ac4e0040e046401b
+17	1343	1711811942750885747	program/CMakeFiles/Program.dir/src/main.cpp.o	e5ed855478f8339e
+18	1345	1711811942749833733	library/CMakeFiles/Library.dir/src/model/Client.cpp.o	30abd2b7364d648e
+19	2554	1711811943964818507	library/CMakeFiles/Library.dir/test/AdressTest.cpp.o	6082fb096e40851f
+2554	7428	1711811948853343000	library/libLibrary.a	f6aea0c7f03155b3
+7428	10982	1711811952397794088	program/Program	6598b863ec50029f

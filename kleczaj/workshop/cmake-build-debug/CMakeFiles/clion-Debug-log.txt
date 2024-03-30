@@ -1,0 +1,39 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -DCMAKE_TOOLCHAIN_FILE=/Users/kacperkleczaj/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop -B /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at program/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at library/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1398 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1523 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
+  /Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)
+  /Users/kacperkleczaj/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)
+  library/CMakeLists.txt:20 (find_package)
+
+
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug

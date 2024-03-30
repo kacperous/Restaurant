@@ -7,6 +7,9 @@ project(Library)
 set(SOURCE_FILES
     src/model/Client.cpp
     include/model/Client.h
+        include/model/Adress.h
+        src/model/Adress.cpp
+        test/AdressTest.cpp
 )
 
 # Utwórz bibliotekę typu STATIC, SHARED albo MODULE ze wskazanych źródeł
