@@ -183,6 +183,20 @@ build library/CMakeFiles/Library.dir/test/AdressTest.cpp.o: CXX_COMPILER__Librar
   OBJECT_DIR = library/CMakeFiles/Library.dir
   OBJECT_FILE_DIR = library/CMakeFiles/Library.dir/test
 
+build library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o: CXX_COMPILER__Library_unscanned_Debug /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Vehicle.cpp || cmake_object_order_depends_target_Library
+  DEP_FILE = library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o.d
+  FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include
+  OBJECT_DIR = library/CMakeFiles/Library.dir
+  OBJECT_FILE_DIR = library/CMakeFiles/Library.dir/src/model
+
+build library/CMakeFiles/Library.dir/src/model/Rent.cpp.o: CXX_COMPILER__Library_unscanned_Debug /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Rent.cpp || cmake_object_order_depends_target_Library
+  DEP_FILE = library/CMakeFiles/Library.dir/src/model/Rent.cpp.o.d
+  FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include
+  OBJECT_DIR = library/CMakeFiles/Library.dir
+  OBJECT_FILE_DIR = library/CMakeFiles/Library.dir/src/model
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Library
@@ -191,7 +205,7 @@ build library/CMakeFiles/Library.dir/test/AdressTest.cpp.o: CXX_COMPILER__Librar
 #############################################
 # Link the static library library/libLibrary.a
 
-build library/libLibrary.a: CXX_STATIC_LIBRARY_LINKER__Library_Debug library/CMakeFiles/Library.dir/src/model/Client.cpp.o library/CMakeFiles/Library.dir/src/model/Adress.cpp.o library/CMakeFiles/Library.dir/test/AdressTest.cpp.o
+build library/libLibrary.a: CXX_STATIC_LIBRARY_LINKER__Library_Debug library/CMakeFiles/Library.dir/src/model/Client.cpp.o library/CMakeFiles/Library.dir/src/model/Adress.cpp.o library/CMakeFiles/Library.dir/test/AdressTest.cpp.o library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o library/CMakeFiles/Library.dir/src/model/Rent.cpp.o
   ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
   LANGUAGE_COMPILE_FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra
   OBJECT_DIR = library/CMakeFiles/Library.dir
@@ -223,6 +237,20 @@ build library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: CXX_COMPILER__
   OBJECT_DIR = library/CMakeFiles/LibraryTester.dir
   OBJECT_FILE_DIR = library/CMakeFiles/LibraryTester.dir/test
 
+build library/CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o: CXX_COMPILER__LibraryTester_unscanned_Debug /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/VehicleTest.cpp || cmake_object_order_depends_target_LibraryTester
+  DEP_FILE = library/CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o.d
+  FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include
+  OBJECT_DIR = library/CMakeFiles/LibraryTester.dir
+  OBJECT_FILE_DIR = library/CMakeFiles/LibraryTester.dir/test
+
+build library/CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o: CXX_COMPILER__LibraryTester_unscanned_Debug /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/RentTest.cpp || cmake_object_order_depends_target_LibraryTester
+  DEP_FILE = library/CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o.d
+  FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include
+  OBJECT_DIR = library/CMakeFiles/LibraryTester.dir
+  OBJECT_FILE_DIR = library/CMakeFiles/LibraryTester.dir/test
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LibraryTester
@@ -231,7 +259,7 @@ build library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable library/LibraryTester
 
-build library/LibraryTester: CXX_EXECUTABLE_LINKER__LibraryTester_Debug library/CMakeFiles/LibraryTester.dir/test/master.cpp.o library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o | library/libLibrary.a /Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/debug/lib/libboost_unit_test_framework.a || library/libLibrary.a
+build library/LibraryTester: CXX_EXECUTABLE_LINKER__LibraryTester_Debug library/CMakeFiles/LibraryTester.dir/test/master.cpp.o library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o library/CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o library/CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o | library/libLibrary.a /Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/debug/lib/libboost_unit_test_framework.a || library/libLibrary.a
   FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = library/libLibrary.a  /Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/debug/lib/libboost_unit_test_framework.a
   OBJECT_DIR = library/CMakeFiles/LibraryTester.dir

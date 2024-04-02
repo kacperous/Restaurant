@@ -39,3 +39,9 @@ void Client::setAdress(Adress *adr) {
         adress=adr;
     }
 }
+void Client::addRent(Rent *newRent) {
+    currentRents.push_back(newRent);
+}
+const vector<Rent *> &Client::getCurrentRents() const {
+    return currentRents;
+}

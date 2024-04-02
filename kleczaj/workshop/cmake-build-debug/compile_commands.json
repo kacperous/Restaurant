@@ -25,6 +25,18 @@
 },
 {
   "directory": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Vehicle.cpp",
+  "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Vehicle.cpp",
+  "output": "library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o"
+},
+{
+  "directory": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/Library.dir/src/model/Rent.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Rent.cpp",
+  "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/src/model/Rent.cpp",
+  "output": "library/CMakeFiles/Library.dir/src/model/Rent.cpp.o"
+},
+{
+  "directory": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug",
   "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/LibraryTester.dir/test/master.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/master.cpp",
   "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/master.cpp",
   "output": "library/CMakeFiles/LibraryTester.dir/test/master.cpp.o"
@@ -34,5 +46,17 @@
   "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/ClientTest.cpp",
   "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/ClientTest.cpp",
   "output": "library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o"
+},
+{
+  "directory": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/VehicleTest.cpp",
+  "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/VehicleTest.cpp",
+  "output": "library/CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o"
+},
+{
+  "directory": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/include -I/Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/include -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o library/CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o -c /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/RentTest.cpp",
+  "file": "/Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/library/test/RentTest.cpp",
+  "output": "library/CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o"
 }
 ]

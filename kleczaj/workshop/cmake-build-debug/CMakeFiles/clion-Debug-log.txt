@@ -31,9 +31,9 @@ Call Stack (most recent call first):
   /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
   /Users/kacperkleczaj/.vcpkg-clion/vcpkg/installed/x64-osx/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)
   /Users/kacperkleczaj/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)
-  library/CMakeLists.txt:20 (find_package)
+  library/CMakeLists.txt:24 (find_package)
 
 
--- Configuring done (0.2s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/kacperkleczaj/Desktop/CLionProject/start/kleczaj/workshop/cmake-build-debug

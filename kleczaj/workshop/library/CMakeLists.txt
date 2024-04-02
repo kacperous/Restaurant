@@ -10,6 +10,10 @@ set(SOURCE_FILES
         include/model/Adress.h
         src/model/Adress.cpp
         test/AdressTest.cpp
+        include/model/Vehicle.h
+        src/model/Vehicle.cpp
+        include/model/Rent.h
+        src/model/Rent.cpp
 )
 
 # Utwórz bibliotekę typu STATIC, SHARED albo MODULE ze wskazanych źródeł
@@ -27,6 +31,9 @@ include_directories(
 set(SOURCE_TEST_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/test/master.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/test/ClientTest.cpp
+        test/VehicleTest.cpp
+        test/RentTest.cpp
+
 )
 add_executable(LibraryTester ${SOURCE_TEST_FILES})
 
