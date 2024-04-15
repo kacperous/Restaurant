@@ -7,6 +7,13 @@ project(Library)
 set(SOURCE_FILES
     src/model/Client.cpp
     include/model/Client.h
+        include/model/Adress.h
+        src/model/Adress.cpp
+        test/AdressTest.cpp
+        include/model/Vehicle.h
+        src/model/Vehicle.cpp
+        include/model/Rent.h
+        src/model/Rent.cpp
 )
 
 # Utwórz bibliotekę typu STATIC, SHARED albo MODULE ze wskazanych źródeł
@@ -22,8 +29,11 @@ include_directories(
 )
 
 set(SOURCE_TEST_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/test/master.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/test/ClientTest.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test/AdressTest.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test/RentTest.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test/VehicleTest.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test/master.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test/ClientTest.cpp
 )
 add_executable(LibraryTester ${SOURCE_TEST_FILES})
 
@@ -40,3 +50,5 @@ add_test(LibraryTest LibraryTester
 add_custom_target(check ${CMAKE_COMMAND} -E env CTEST_OUTPUT_ON_FAILURE=1 BOOST_TEST_LOG_LEVEL=all
         ${CMAKE_CTEST_COMMAND} -C $<CONFIGURATION> --verbose
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
+
+
