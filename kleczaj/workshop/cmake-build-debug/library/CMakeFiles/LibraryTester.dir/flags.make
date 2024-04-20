@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK
 
-CXX_INCLUDES = -I/home/student/CLionProjects/start/kleczaj/workshop/library/include
+CXX_INCLUDES = -I/home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/library/include
 
 CXX_FLAGS = -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17
 

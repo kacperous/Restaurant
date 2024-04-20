@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/CLionProjects/start/kleczaj/workshop
+CMAKE_SOURCE_DIR = /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug
+CMAKE_BINARY_DIR = /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug
 
 # Utility rule file for check.
 
@@ -81,10 +81,10 @@ library/CMakeFiles/check.dir/build: check
 .PHONY : library/CMakeFiles/check.dir/build
 
 library/CMakeFiles/check.dir/clean:
-	cd /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/check.dir/clean
 
 library/CMakeFiles/check.dir/depend:
-	cd /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/CLionProjects/start/kleczaj/workshop /home/student/CLionProjects/start/kleczaj/workshop/library /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug/library /home/student/CLionProjects/start/kleczaj/workshop/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/library /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug/library /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/check.dir/depend
 

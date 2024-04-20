@@ -28,6 +28,7 @@ public:
     Adress *getAdress() const;
     void setAdress(Adress *adr);
     void addRent(Rent* newRent);
+    void removeRent();
     const vector<Rent*>& getCurrentRents() const;
 private:
     void printDiagnostic(string message);

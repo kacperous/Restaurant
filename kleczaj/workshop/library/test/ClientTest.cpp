@@ -1,11 +1,13 @@
 #include <boost/test/unit_test.hpp>
 #include "model/Client.h"
+#include "model/Adress.h"
 
 BOOST_AUTO_TEST_SUITE(TestSuiteClient)
 
     BOOST_AUTO_TEST_CASE(SetFirstNameTest) {
         // Pozytywny test - ustaw nowe imię
-        Client client("Jan", "Kowalski", "1");
+        Adress a1("lodz","gdzies","5");
+        Client client("Jan", "Kowalski", "1",&a1);
         client.setFirstName("Adam");
         BOOST_CHECK_EQUAL(client.getFirstName(), "Adam");
 
@@ -16,7 +18,8 @@ BOOST_AUTO_TEST_SUITE(TestSuiteClient)
 
     BOOST_AUTO_TEST_CASE(SetLastNameTest) {
         // Pozytywny test - ustaw nowe nazwisko
-        Client client("Jan", "Kowalski", "1");
+        Adress a1("lodz","gdzies","5");
+        Client client("Jan", "Kowalski", "1",&a1);
         client.setLastName("Nowak");
         BOOST_CHECK_EQUAL(client.getLastName(), "Nowak");
 

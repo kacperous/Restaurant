@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o"
   "CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o.d"
+  "CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o"
+  "CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o.d"
+  "CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o"
+  "CMakeFiles/LibraryTester.dir/test/VehicleTest.cpp.o.d"
   "CMakeFiles/LibraryTester.dir/test/master.cpp.o"
   "CMakeFiles/LibraryTester.dir/test/master.cpp.o.d"
   "LibraryTester"

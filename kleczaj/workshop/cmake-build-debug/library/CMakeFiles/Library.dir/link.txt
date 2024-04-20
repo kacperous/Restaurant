@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLibrary.a CMakeFiles/Library.dir/src/model/Client.cpp.o CMakeFiles/Library.dir/src/model/Adress.cpp.o CMakeFiles/Library.dir/test/AdressTest.cpp.o
+/usr/bin/ar qc libLibrary.a CMakeFiles/Library.dir/src/model/Client.cpp.o CMakeFiles/Library.dir/src/model/Adress.cpp.o CMakeFiles/Library.dir/test/AdressTest.cpp.o CMakeFiles/Library.dir/src/model/Vehicle.cpp.o CMakeFiles/Library.dir/src/model/Rent.cpp.o
 /usr/bin/ranlib libLibrary.a

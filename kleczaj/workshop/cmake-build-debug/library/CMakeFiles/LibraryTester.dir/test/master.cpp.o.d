@@ -1,5 +1,5 @@
 library/CMakeFiles/LibraryTester.dir/test/master.cpp.o: \
- /home/student/CLionProjects/start/kleczaj/workshop/library/test/master.cpp \
+ /home/student/CLionProjects/most_pn_0815_04/kleczaj/workshop/library/test/master.cpp \
  /usr/include/stdc-predef.h /usr/include/boost/test/unit_test.hpp \
  /usr/include/boost/test/test_tools.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \

@@ -42,6 +42,9 @@ void Client::setAdress(Adress *adr) {
 void Client::addRent(Rent *newRent) {
     currentRents.push_back(newRent);
 }
+void Client::removeRent(){
+    currentRents.erase(currentRents.begin());
+}
 const vector<Rent *> &Client::getCurrentRents() const {
     return currentRents;
 }
