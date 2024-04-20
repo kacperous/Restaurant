@@ -1,9 +1,0 @@
-# ninja log v5
-68	5411	1712058861156109666	library/CMakeFiles/Library.dir/src/model/Client.cpp.o	30abd2b7364d648e
-55	2289	1712054340142553759	library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o	cb7623848879d5dd
-49	1526	1712058911393820538	program/CMakeFiles/Program.dir/src/main.cpp.o	e5ed855478f8339e
-7609	7919	1712058863692775000	library/libLibrary.a	34c03c3b048638b1
-69	5322	1712058861050415309	library/CMakeFiles/Library.dir/src/model/Rent.cpp.o	4b6b936b2c8164b
-18	1338	1711811942743251974	library/CMakeFiles/Library.dir/src/model/Adress.cpp.o	ac4e0040e046401b
-1526	1649	1712058911518939668	program/Program	6598b863ec50029f
-69	7609	1712058863348411072	library/CMakeFiles/Library.dir/test/AdressTest.cpp.o	6082fb096e40851f
