@@ -114,19 +114,64 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Bicycle.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Bronze.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Client.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/ClientType.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Default.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Diamond.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Gold.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Moped.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/MotorVehicle.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Platinum.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Rent.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Silver.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Vehicle.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/typedefs.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Address.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Bicycle.cpp">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Client.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Moped.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/MotorVehicle.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Rent.cpp">

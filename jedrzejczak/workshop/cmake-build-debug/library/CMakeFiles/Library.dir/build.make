@@ -125,12 +125,72 @@ library/CMakeFiles/Library.dir/src/model/Rent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Rent.cpp.s"
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Rent.cpp -o CMakeFiles/Library.dir/src/model/Rent.cpp.s
 
+library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Bicycle.cpp
+library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o -MF CMakeFiles/Library.dir/src/model/Bicycle.cpp.o.d -o CMakeFiles/Library.dir/src/model/Bicycle.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Bicycle.cpp
+
+library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Bicycle.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Bicycle.cpp > CMakeFiles/Library.dir/src/model/Bicycle.cpp.i
+
+library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Bicycle.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Bicycle.cpp -o CMakeFiles/Library.dir/src/model/Bicycle.cpp.s
+
+library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/MotorVehicle.cpp
+library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o -MF CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o.d -o CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/MotorVehicle.cpp
+
+library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/MotorVehicle.cpp > CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.i
+
+library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/MotorVehicle.cpp -o CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.s
+
+library/CMakeFiles/Library.dir/src/model/Moped.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/model/Moped.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Moped.cpp
+library/CMakeFiles/Library.dir/src/model/Moped.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object library/CMakeFiles/Library.dir/src/model/Moped.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Moped.cpp.o -MF CMakeFiles/Library.dir/src/model/Moped.cpp.o.d -o CMakeFiles/Library.dir/src/model/Moped.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Moped.cpp
+
+library/CMakeFiles/Library.dir/src/model/Moped.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Moped.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Moped.cpp > CMakeFiles/Library.dir/src/model/Moped.cpp.i
+
+library/CMakeFiles/Library.dir/src/model/Moped.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Moped.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/Moped.cpp -o CMakeFiles/Library.dir/src/model/Moped.cpp.s
+
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o -MF CMakeFiles/Library.dir/src/model/ClientType.cpp.o.d -o CMakeFiles/Library.dir/src/model/ClientType.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp
+
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/ClientType.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp > CMakeFiles/Library.dir/src/model/ClientType.cpp.i
+
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/ClientType.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp -o CMakeFiles/Library.dir/src/model/ClientType.cpp.s
+
 # Object files for target Library
 Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/model/Client.cpp.o" \
 "CMakeFiles/Library.dir/src/model/Address.cpp.o" \
 "CMakeFiles/Library.dir/src/model/Vehicle.cpp.o" \
-"CMakeFiles/Library.dir/src/model/Rent.cpp.o"
+"CMakeFiles/Library.dir/src/model/Rent.cpp.o" \
+"CMakeFiles/Library.dir/src/model/Bicycle.cpp.o" \
+"CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o" \
+"CMakeFiles/Library.dir/src/model/Moped.cpp.o" \
+"CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -139,9 +199,13 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Client.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Address.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Rent.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Moped.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libLibrary.a"
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 

@@ -16,7 +16,7 @@ int main() {
     std::cout << client1->getInfo() << std::endl;
 
     // Tworzenie pojazdu
-    Vehicle* vehicle1 = new Vehicle("DW12345", 150);
+    Vehicle* vehicle1 = new Vehicle("DW12345", 150,true);
     std::cout << vehicle1->getInfo() << std::endl;
 
     // Tworzenie wypożyczenia

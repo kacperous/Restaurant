@@ -12,6 +12,21 @@ set(SOURCE_FILES src/model/Client.cpp include/model/Client.h
         src/model/Vehicle.cpp
         src/model/Rent.cpp
         include/model/Rent.h
+        include/model/typedefs.h
+        src/model/Bicycle.cpp
+        include/model/Bicycle.h
+        include/model/MotorVehicle.h
+        src/model/MotorVehicle.cpp
+        include/model/Moped.h
+        src/model/Moped.cpp
+        include/model/ClientType.h
+        src/model/ClientType.cpp
+        include/model/Default.h
+        include/model/Bronze.h
+        include/model/Silver.h
+        include/model/Gold.h
+        include/model/Platinum.h
+        include/model/Diamond.h
 )
 
 # Utworzenie biblioteki 'Library'

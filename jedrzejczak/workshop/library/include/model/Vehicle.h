@@ -2,22 +2,27 @@
 #define VEHICLE_H
 
 #include <string>
+using namespace std;
 
 class Vehicle {
 private:
-    std::string plateNumber;
+    string plateNumber;
     unsigned int basePrice;
+    bool rented;
 
 public:
-    Vehicle(const std::string& plateNumber, unsigned int basePrice);
+    Vehicle(const string& plateNumber, unsigned int basePrice,bool rented);
 
-    std::string getPlateNumber() const;
+    string getPlateNumber() const;
     unsigned int getBasePrice() const;
+    bool getRented() const;
 
-    void setPlateNumber(const std::string& plateNumber);
+    void setPlateNumber(const string& plateNumber);
     void setBasePrice(unsigned int basePrice);
+    void setRented(bool rented);
 
-    std::string getInfo() const;
+    string getInfo() const;
+    string getActualRentalPrice() const;
 };
 
 #endif // VEHICLE_H
