@@ -3,6 +3,7 @@
 #include "model/Adress.h"
 #include "model/Vehicle.h"
 #include "model/Rent.h"
+#include "model/Bicycle.h"
 
 using namespace std;
 
@@ -10,10 +11,12 @@ int main() {
     // Tworzenie adresów
     Adress *a1 = new Adress("lodz","piotrkowska","15");
     Adress *a2 = new Adress("lodddddddz","piotrsssssskowska","1522222");
+    ClientType *clientType=new Silver();
+    ClientType *clientType1= new Gold();
 
     // Tworzenie klientów
-    Client c1("Jan", "Kowalski", "1", a1);
-    Client *c2 = new Client("Wojtek", "Szczesny", "2", a2);
+    Client c1("Jan", "Kowalski", "1", a1,clientType);
+    Client *c2 = new Client("Wojtek", "Szczesny", "2", a2,clientType1);
 
     // Tworzenie pojazdu
     Vehicle *w1 = new Vehicle("TSK40251", 213, true);
@@ -38,7 +41,7 @@ int main() {
     //cout<<rent1->getRentCost()<<endl;
     //rent1->endRent();
 
-    Client* client = new Client("Marian", "Kucyk", "12", new Adress("London", "Accacia Avenue", "22"));
+    Client* client = new Client("Marian", "Kucyk", "12", new Adress("London", "Accacia Avenue", "22"),clientType);
     Vehicle* vehicle = new Vehicle("WSZ23131", 760, false);
 
     // Przypadek 2: Wypożyczenie trwające dokładnie 1 minutę
@@ -64,5 +67,11 @@ int main() {
     delete a2;
     delete w1;
 
+    Bicycle bicycle("tsk2421",450,1);
+    if(bicycle.getActualRentalPrice() == 450){
+        cout<<"1- zaliczone";
+    }
+    else
+        cout<<"blad";
     return 0;
 }

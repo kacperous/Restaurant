@@ -3,21 +3,21 @@
 #include <iostream>
 #include "model/Adress.h"
 #include <vector>
+#include "typedefs.h"
+#include "ClientType.h"
 using namespace std;
-class Client{
+class Client {
     string firstName;
     string lastName;
     string personalID;
-    Adress *adress;
-    vector<Rent*> currentRents;
+    AdressPtr adress;
+    vector<RentPtr> currentRents;
+    ClientType *clientType;
 public:
-    Client(string fName, string lName, string ID, Adress *addr) : firstName(fName), lastName(lName), personalID(ID), adress(addr){
+    Client(string fName, string lName, string ID, AdressPtr addr, ClientType *clientType) : firstName(fName), lastName(lName), personalID(ID),
+                                                                    adress(addr), clientType(clientType) {
     }
-    ~Client(){
-        for (Rent* rent : currentRents) {
-            delete rent;
-        }
-    }
+    ~Client() {}
     string getFirstName() const;
     void setFirstName(const string& fName);
     string getLastName() const;
@@ -25,11 +25,15 @@ public:
     string getPersonalID() const;
     void setPersonalID(const string& ID);
     string getInfo();
-    Adress *getAdress() const;
-    void setAdress(Adress *adr);
-    void addRent(Rent* newRent);
+    const AdressPtr& getAdress() const;
+    void setAdress(AdressPtr adr);
+    void addRent(RentPtr newRent);
     void removeRent();
-    const vector<Rent*>& getCurrentRents() const;
+    const vector<RentPtr>& getCurrentRents() const;
+    int getMaxVehicles() const;
+    double applyDiscount(double price) const;
+    void setClientType(ClientType *newClientType);
+
 private:
     void printDiagnostic(string message);
 };

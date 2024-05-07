@@ -20,6 +20,9 @@ void Vehicle::setBasePrice(const int &Price) {
 void Vehicle::setRented(const bool &isRented){
     rented=isRented;
 }
-void Vehicle::getInfo() {
+void Vehicle::getInfo() const {
     cout<<"Number plate: "<<plateNumber<<", price: "<<basePrice<<", is rented: "<<rented;
+}
+double Vehicle::getActualRentalPrice() const {
+    return basePrice;
 }

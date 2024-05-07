@@ -1,17 +1,19 @@
 #pragma once
 #include <iostream>
+#include "typedefs.h"
 using namespace std;
 class Vehicle{
     string plateNumber;
-    int basePrice;
     bool rented;
+protected:
+    int basePrice;
 public:
     Vehicle(string NrPlate,int Price, bool isRented){
         plateNumber=NrPlate;
         basePrice=Price;
         rented=isRented;
     }
-    ~Vehicle(){
+    virtual ~Vehicle(){
     }
     string getPlateNumber() const;
     void setPlateNumber(const string &NrPlate);
@@ -19,5 +21,6 @@ public:
     void setBasePrice(const int &Price);
     bool getRented() const;
     void setRented(const bool &isRented);
-    void getInfo();
+    virtual void getInfo() const;
+    virtual double getActualRentalPrice() const;
 };

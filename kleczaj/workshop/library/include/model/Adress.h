@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "typedefs.h"
 using namespace std;
 class Adress{
     string city;

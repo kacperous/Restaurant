@@ -31,20 +31,29 @@ string Client::getInfo(){
 void Client::printDiagnostic(string message) {
     cout << message << " - Imię: " << firstName << ", Nazwisko: " << lastName << ", PESEL: " << personalID << endl;
 }
-Adress *Client::getAdress() const {
+const AdressPtr& Client::getAdress() const {
     return adress;
 }
-void Client::setAdress(Adress *adr) {
+void Client::setAdress(AdressPtr adr) {
     if(adr!=nullptr){
         adress=adr;
     }
 }
-void Client::addRent(Rent *newRent) {
+void Client::addRent(RentPtr newRent) {
     currentRents.push_back(newRent);
 }
 void Client::removeRent(){
     currentRents.erase(currentRents.begin());
 }
-const vector<Rent *> &Client::getCurrentRents() const {
+const vector<RentPtr> &Client::getCurrentRents() const {
     return currentRents;
+}
+int Client::getMaxVehicles() const {
+    return clientType->getMaxVehicles();
+}
+double Client::applyDiscount(double price) const {
+    return clientType->applyDiscount(price);
+}
+void Client::setClientType(ClientType *newClientType) {
+    clientType=newClientType;
 }

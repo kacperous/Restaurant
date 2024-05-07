@@ -3,11 +3,11 @@
 #include <boost/date_time.hpp>
 namespace pt=boost::posix_time;
 namespace gr = boost::gregorian;
-Rent::Rent(int id, Client* client, Vehicle *vehicle,pt::ptime beginTime,pt::ptime endTime){
+Rent::Rent(int id, ClientPtr client, VehiclePtr vehicle,pt::ptime beginTime,pt::ptime endTime){
     this->id=id;
     this->client=client;
     this->vehicle=vehicle;
-    this->beginTime=pt::second_clock::local_time();
+    this->beginTime=beginTime;
     this->endTime=endTime;
     vehicle->setRented(true);
 }
@@ -16,11 +16,11 @@ int Rent::getId() const {
     return id;
 }
 
-const Client* Rent::getClient() const {
+const ClientPtr& Rent::getClient() const {
     return client;
 }
 
-const Vehicle* Rent::getVehicle() const {
+const VehiclePtr& Rent::getVehicle() const {
     return vehicle;
 }
 

@@ -14,6 +14,17 @@ set(SOURCE_FILES
         src/model/Vehicle.cpp
         include/model/Rent.h
         src/model/Rent.cpp
+        include/model/typedefs.h
+        include/model/typedefs.h
+        include/model/Bicycle.h
+        include/model/MotorVehicle.h
+        include/model/Moped.h
+        include/model/Car.h
+        src/model/Bicycle.cpp
+        src/model/MotorVehicle.cpp
+        src/model/Moped.cpp
+        src/model/Car.cpp
+        include/model/ClientType.h
 )
 
 # Utwórz bibliotekę typu STATIC, SHARED albo MODULE ze wskazanych źródeł
@@ -33,6 +44,9 @@ set(SOURCE_TEST_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/test/ClientTest.cpp
         test/VehicleTest.cpp
         test/RentTest.cpp
+        test/BicycleTest.cpp
+        test/MopedTest.cpp
+        test/CarTest.cpp
 
 )
 add_executable(LibraryTester ${SOURCE_TEST_FILES})

@@ -26,7 +26,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g3 -gdwarf-4")
 # Ustawienie restrykcyjnych parametrów kompilatora dla trybu debug
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -Wall -Wpedantic -Wextra")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -Wpedantic -Wextra")
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")
 
 # Ustaw nazwę projektu i język na C++
 project(CarRental)
