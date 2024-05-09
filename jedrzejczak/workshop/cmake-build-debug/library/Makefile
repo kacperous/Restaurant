@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -153,6 +143,30 @@ LibraryTester: library/CMakeFiles/LibraryTester.dir/rule
 LibraryTester/fast:
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/build
 .PHONY : LibraryTester/fast
+
+src/StorageContainer.o: src/StorageContainer.cpp.o
+.PHONY : src/StorageContainer.o
+
+# target to build an object file
+src/StorageContainer.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o
+.PHONY : src/StorageContainer.cpp.o
+
+src/StorageContainer.i: src/StorageContainer.cpp.i
+.PHONY : src/StorageContainer.i
+
+# target to preprocess a source file
+src/StorageContainer.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.i
+.PHONY : src/StorageContainer.cpp.i
+
+src/StorageContainer.s: src/StorageContainer.cpp.s
+.PHONY : src/StorageContainer.s
+
+# target to generate assembly for a file
+src/StorageContainer.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s
+.PHONY : src/StorageContainer.cpp.s
 
 src/model/Address.o: src/model/Address.cpp.o
 .PHONY : src/model/Address.o
@@ -346,6 +360,102 @@ src/model/Vehicle.cpp.s:
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Vehicle.cpp.s
 .PHONY : src/model/Vehicle.cpp.s
 
+src/repositories/ClientRepository.o: src/repositories/ClientRepository.cpp.o
+.PHONY : src/repositories/ClientRepository.o
+
+# target to build an object file
+src/repositories/ClientRepository.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o
+.PHONY : src/repositories/ClientRepository.cpp.o
+
+src/repositories/ClientRepository.i: src/repositories/ClientRepository.cpp.i
+.PHONY : src/repositories/ClientRepository.i
+
+# target to preprocess a source file
+src/repositories/ClientRepository.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.i
+.PHONY : src/repositories/ClientRepository.cpp.i
+
+src/repositories/ClientRepository.s: src/repositories/ClientRepository.cpp.s
+.PHONY : src/repositories/ClientRepository.s
+
+# target to generate assembly for a file
+src/repositories/ClientRepository.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.s
+.PHONY : src/repositories/ClientRepository.cpp.s
+
+src/repositories/RentRepository.o: src/repositories/RentRepository.cpp.o
+.PHONY : src/repositories/RentRepository.o
+
+# target to build an object file
+src/repositories/RentRepository.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o
+.PHONY : src/repositories/RentRepository.cpp.o
+
+src/repositories/RentRepository.i: src/repositories/RentRepository.cpp.i
+.PHONY : src/repositories/RentRepository.i
+
+# target to preprocess a source file
+src/repositories/RentRepository.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.i
+.PHONY : src/repositories/RentRepository.cpp.i
+
+src/repositories/RentRepository.s: src/repositories/RentRepository.cpp.s
+.PHONY : src/repositories/RentRepository.s
+
+# target to generate assembly for a file
+src/repositories/RentRepository.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.s
+.PHONY : src/repositories/RentRepository.cpp.s
+
+src/repositories/VehicleRepository.o: src/repositories/VehicleRepository.cpp.o
+.PHONY : src/repositories/VehicleRepository.o
+
+# target to build an object file
+src/repositories/VehicleRepository.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o
+.PHONY : src/repositories/VehicleRepository.cpp.o
+
+src/repositories/VehicleRepository.i: src/repositories/VehicleRepository.cpp.i
+.PHONY : src/repositories/VehicleRepository.i
+
+# target to preprocess a source file
+src/repositories/VehicleRepository.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.i
+.PHONY : src/repositories/VehicleRepository.cpp.i
+
+src/repositories/VehicleRepository.s: src/repositories/VehicleRepository.cpp.s
+.PHONY : src/repositories/VehicleRepository.s
+
+# target to generate assembly for a file
+src/repositories/VehicleRepository.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.s
+.PHONY : src/repositories/VehicleRepository.cpp.s
+
+test/AddressTest.o: test/AddressTest.cpp.o
+.PHONY : test/AddressTest.o
+
+# target to build an object file
+test/AddressTest.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/AddressTest.cpp.o
+.PHONY : test/AddressTest.cpp.o
+
+test/AddressTest.i: test/AddressTest.cpp.i
+.PHONY : test/AddressTest.i
+
+# target to preprocess a source file
+test/AddressTest.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/AddressTest.cpp.i
+.PHONY : test/AddressTest.cpp.i
+
+test/AddressTest.s: test/AddressTest.cpp.s
+.PHONY : test/AddressTest.s
+
+# target to generate assembly for a file
+test/AddressTest.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/AddressTest.cpp.s
+.PHONY : test/AddressTest.cpp.s
+
 test/ClientTest.o: test/ClientTest.cpp.o
 .PHONY : test/ClientTest.o
 
@@ -369,6 +479,54 @@ test/ClientTest.s: test/ClientTest.cpp.s
 test/ClientTest.cpp.s:
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
+
+test/RentTest.o: test/RentTest.cpp.o
+.PHONY : test/RentTest.o
+
+# target to build an object file
+test/RentTest.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RentTest.cpp.o
+.PHONY : test/RentTest.cpp.o
+
+test/RentTest.i: test/RentTest.cpp.i
+.PHONY : test/RentTest.i
+
+# target to preprocess a source file
+test/RentTest.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RentTest.cpp.i
+.PHONY : test/RentTest.cpp.i
+
+test/RentTest.s: test/RentTest.cpp.s
+.PHONY : test/RentTest.s
+
+# target to generate assembly for a file
+test/RentTest.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RentTest.cpp.s
+.PHONY : test/RentTest.cpp.s
+
+test/VehicleTest.o: test/VehicleTest.cpp.o
+.PHONY : test/VehicleTest.o
+
+# target to build an object file
+test/VehicleTest.cpp.o:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o
+.PHONY : test/VehicleTest.cpp.o
+
+test/VehicleTest.i: test/VehicleTest.cpp.i
+.PHONY : test/VehicleTest.i
+
+# target to preprocess a source file
+test/VehicleTest.cpp.i:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/VehicleTest.cpp.i
+.PHONY : test/VehicleTest.cpp.i
+
+test/VehicleTest.s: test/VehicleTest.cpp.s
+.PHONY : test/VehicleTest.s
+
+# target to generate assembly for a file
+test/VehicleTest.cpp.s:
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/VehicleTest.cpp.s
+.PHONY : test/VehicleTest.cpp.s
 
 test/master.o: test/master.cpp.o
 .PHONY : test/master.o
@@ -402,9 +560,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test"
 	@echo "... Library"
 	@echo "... LibraryTester"
+	@echo "... src/StorageContainer.o"
+	@echo "... src/StorageContainer.i"
+	@echo "... src/StorageContainer.s"
 	@echo "... src/model/Address.o"
 	@echo "... src/model/Address.i"
 	@echo "... src/model/Address.s"
@@ -429,9 +589,27 @@ help:
 	@echo "... src/model/Vehicle.o"
 	@echo "... src/model/Vehicle.i"
 	@echo "... src/model/Vehicle.s"
+	@echo "... src/repositories/ClientRepository.o"
+	@echo "... src/repositories/ClientRepository.i"
+	@echo "... src/repositories/ClientRepository.s"
+	@echo "... src/repositories/RentRepository.o"
+	@echo "... src/repositories/RentRepository.i"
+	@echo "... src/repositories/RentRepository.s"
+	@echo "... src/repositories/VehicleRepository.o"
+	@echo "... src/repositories/VehicleRepository.i"
+	@echo "... src/repositories/VehicleRepository.s"
+	@echo "... test/AddressTest.o"
+	@echo "... test/AddressTest.i"
+	@echo "... test/AddressTest.s"
 	@echo "... test/ClientTest.o"
 	@echo "... test/ClientTest.i"
 	@echo "... test/ClientTest.s"
+	@echo "... test/RentTest.o"
+	@echo "... test/RentTest.i"
+	@echo "... test/RentTest.s"
+	@echo "... test/VehicleTest.o"
+	@echo "... test/VehicleTest.i"
+	@echo "... test/VehicleTest.s"
 	@echo "... test/master.o"
 	@echo "... test/master.i"
 	@echo "... test/master.s"

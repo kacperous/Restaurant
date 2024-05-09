@@ -10,9 +10,9 @@ private:
     std::string city;
     std::string street;
     std::string number;
-
+    std::string address;
 public:
-    // Tutaj powinny być umieszczone konstruktory, jeśli są potrzebne
+    Address(const std::string& addr) : address(addr) {}
 
     void setCity(const std::string &city);
     void setStreet(const std::string &street);
@@ -23,6 +23,11 @@ public:
     std::string getNumber() const;
 
     std::string getInfo() const;
+
+
+    Address();
+
+    Address(const char string[8], const char string1[12], const char string2[3]);
 };
 
 #endif // ADDRESS_H

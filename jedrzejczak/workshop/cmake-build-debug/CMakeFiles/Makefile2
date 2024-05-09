@@ -116,12 +116,12 @@ program/clean: program/CMakeFiles/Program.dir/clean
 library/CMakeFiles/Library.dir/all:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/depend
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target Library"
 .PHONY : library/CMakeFiles/Library.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/Library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : library/CMakeFiles/Library.dir/rule
@@ -142,12 +142,12 @@ library/CMakeFiles/Library.dir/clean:
 library/CMakeFiles/LibraryTester.dir/all: library/CMakeFiles/Library.dir/all
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/depend
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target LibraryTester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target LibraryTester"
 .PHONY : library/CMakeFiles/LibraryTester.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/LibraryTester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : library/CMakeFiles/LibraryTester.dir/rule
@@ -168,12 +168,12 @@ library/CMakeFiles/LibraryTester.dir/clean:
 program/CMakeFiles/Program.dir/all: library/CMakeFiles/Library.dir/all
 	$(MAKE) $(MAKESILENT) -f program/CMakeFiles/Program.dir/build.make program/CMakeFiles/Program.dir/depend
 	$(MAKE) $(MAKESILENT) -f program/CMakeFiles/Program.dir/build.make program/CMakeFiles/Program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target Program"
 .PHONY : program/CMakeFiles/Program.dir/all
 
 # Build rule for subdir invocation for target.
 program/CMakeFiles/Program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 program/CMakeFiles/Program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : program/CMakeFiles/Program.dir/rule

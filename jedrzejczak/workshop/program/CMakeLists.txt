@@ -2,15 +2,12 @@ cmake_minimum_required(VERSION 3.4)
 
 project(Program)
 
-# Zbiór plików źródłowych projektu
-set(SOURCE_FILES src/main.cpp)
+# Dodanie katalogu z bibliotekami
+include_directories(../library/include)
 
-# Zbudowanie programu wykonywalnego
-add_executable(Program ${SOURCE_FILES})
+# Zdefiniowanie pliku wykonywalnego
+add_executable(Program src/main.cpp)
 
-# Linkowanie z biblioteką 'Library'
+# Linkowanie z biblioteką, jeśli jest wymagane
 target_link_libraries(Program Library)
-
-# Uwzględnienie katalogu include
-target_include_directories(Program PUBLIC "${PROJECT_SOURCE_DIR}/library/include")
 

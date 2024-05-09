@@ -1,7 +1,3 @@
-//
-// Created by student on 03.05.24.
-//
-
 #ifndef CARRENTAL_PLATINUM_H
 #define CARRENTAL_PLATINUM_H
 #include "ClientType.h"

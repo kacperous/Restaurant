@@ -1,18 +1,21 @@
-#include "model/Rent.h"
-#include "model/Client.h"  // Include the full definition of Client
+#include "../../include/model/Rent.h"
+#include "../../include/model/Client.h"  // Include the full definition of Client
+#include "../../include/typedefs.h"
+typedef std::shared_ptr<Client> ClientPtr;
+typedef std::shared_ptr<Vehicle> VehiclePtr;
 
-Rent::Rent(int id, Client* client, Vehicle* vehicle)
+Rent::Rent(int id, std::shared_ptr<Client> client, std::shared_ptr<Vehicle> vehicle)
         : id(id), client(client), vehicle(vehicle) {}
 
 int Rent::getId() const {
     return id;
 }
 
-Client* Rent::getClient() const {
+ClientPtr Rent::getClient() const {
     return client;
 }
 
-Vehicle* Rent::getVehicle() const {
+VehiclePtr Rent::getVehicle() const {
     return vehicle;
 }
 

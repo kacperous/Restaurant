@@ -1,6 +1,3 @@
-//
-// Created by student on 03.05.24.
-//
 
 #ifndef CARRENTAL_BRONZE_H
 #define CARRENTAL_BRONZE_H

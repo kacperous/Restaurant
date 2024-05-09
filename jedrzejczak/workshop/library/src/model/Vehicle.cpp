@@ -1,7 +1,7 @@
 #include "../../include/model/Vehicle.h"
 
-Vehicle::Vehicle(const std::string& plateNumber, unsigned int basePrice,bool rented)
-        : plateNumber(plateNumber), basePrice(basePrice), rented(rented){}
+Vehicle::Vehicle(const std::string& plateNumber, unsigned int basePrice, bool rented)
+        : plateNumber(plateNumber), basePrice(basePrice), rented(rented) {}
 
 std::string Vehicle::getPlateNumber() const {
     return plateNumber;
@@ -10,23 +10,33 @@ std::string Vehicle::getPlateNumber() const {
 unsigned int Vehicle::getBasePrice() const {
     return basePrice;
 }
+
 bool Vehicle::getRented() const {
     return rented;
 }
-void Vehicle::setPlateNumber(const std::string& plateNumber) {
-    this->plateNumber = plateNumber;
+
+void Vehicle::setPlateNumber(const std::string& newPlateNumber) {
+    if (plateNumber != newPlateNumber) {
+        plateNumber = newPlateNumber;
+    }
 }
 
-void Vehicle::setBasePrice(unsigned int basePrice) {
-    this->basePrice = basePrice;
-}
-void Vehicle::setRented(bool rented){
-    this->rented=rented;
+void Vehicle::setBasePrice(unsigned int newBasePrice) {
+    if (basePrice != newBasePrice) {
+        basePrice = newBasePrice;
+    }
 }
 
-string Vehicle::getInfo() const {
+void Vehicle::setRented(bool newRented) {
+    if (rented != newRented) {
+        rented = newRented;
+    }
+}
+
+std::string Vehicle::getInfo() const {
     return "Plate Number: " + plateNumber + ", Base Price: " + std::to_string(basePrice);
 }
-string Vehicle::getActualRentalPrice() const{
-    return "ActualRentalPrice: " + to_string(basePrice);
+
+std::string Vehicle::getActualRentalPrice() const {
+    return "Actual Rental Price: " + std::to_string(basePrice);
 }

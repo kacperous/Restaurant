@@ -1,20 +1,24 @@
 #ifndef RENT_H
 #define RENT_H
+#include <memory>
+#include "Vehicle.h"
+#include "../typedefs.h"
 
-#include "Vehicle.h"  // Assume this is correctly defined
-class Client;  // Forward declaration of Client
+class Client;
 
 class Rent {
 private:
+    Rent(int id, Client *client, Vehicle *vehicle);
+
     int id;
-    Client* client;
-    Vehicle* vehicle;
+    shared_ptr<Client> client;
+    shared_ptr<Vehicle> vehicle;
 
 public:
-    Rent(int id, Client* client, Vehicle* vehicle);
+    Rent(int id, std::shared_ptr<Client> client, std::shared_ptr<Vehicle> vehicle);
     int getId() const;
-    Client* getClient() const;
-    Vehicle* getVehicle() const;
+    ClientPtr getClient() const;
+    VehiclePtr getVehicle() const;
     std::string getInfo() const;
 };
 

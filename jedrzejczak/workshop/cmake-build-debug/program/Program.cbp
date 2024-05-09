@@ -24,7 +24,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/program/library/include"/>
+					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/include"/>
+					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/program/../library/include"/>
 					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/library/include"/>
 					<Add directory="/usr/include/c++/12"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
@@ -48,7 +49,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/program/library/include"/>
+					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/include"/>
+					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/program/../library/include"/>
 					<Add directory="/home/student/CLionProjects/jedrzejczak/workshop/library/include"/>
 					<Add directory="/usr/include/c++/12"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>

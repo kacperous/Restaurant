@@ -1,0 +1,9 @@
+/home/student/CLionProjects/jedrzejczak/workshop/build/CMakeFiles/edit_cache.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/CMakeFiles/rebuild_cache.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/library/CMakeFiles/Library.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/library/CMakeFiles/LibraryTester.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/library/CMakeFiles/edit_cache.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/library/CMakeFiles/rebuild_cache.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/program/CMakeFiles/Program.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/program/CMakeFiles/edit_cache.dir
+/home/student/CLionProjects/jedrzejczak/workshop/build/program/CMakeFiles/rebuild_cache.dir

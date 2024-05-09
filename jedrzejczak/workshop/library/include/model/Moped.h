@@ -1,7 +1,3 @@
-//
-// Created by student on 03.05.24.
-//
-
 #ifndef CARRENTAL_MOPED_H
 #define CARRENTAL_MOPED_H
 #include "MotorVehicle.h"

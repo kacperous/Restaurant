@@ -181,6 +181,104 @@ library/CMakeFiles/Library.dir/src/model/ClientType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/ClientType.cpp.s"
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/model/ClientType.cpp -o CMakeFiles/Library.dir/src/model/ClientType.cpp.s
 
+library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/ClientRepository.cpp
+library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o -MF CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/ClientRepository.cpp
+
+library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/ClientRepository.cpp > CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.i
+
+library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/ClientRepository.cpp -o CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.s
+
+library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/RentRepository.cpp
+library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o -MF CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/RentRepository.cpp
+
+library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/RentRepository.cpp > CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.i
+
+library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/RentRepository.cpp -o CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.s
+
+library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/VehicleRepository.cpp
+library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o -MF CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/VehicleRepository.cpp
+
+library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/VehicleRepository.cpp > CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.i
+
+library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/repositories/VehicleRepository.cpp -o CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.s
+
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/src/StorageContainer.cpp
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o -MF CMakeFiles/Library.dir/src/StorageContainer.cpp.o.d -o CMakeFiles/Library.dir/src/StorageContainer.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/src/StorageContainer.cpp
+
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/StorageContainer.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/src/StorageContainer.cpp > CMakeFiles/Library.dir/src/StorageContainer.cpp.i
+
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/StorageContainer.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/src/StorageContainer.cpp -o CMakeFiles/Library.dir/src/StorageContainer.cpp.s
+
+library/CMakeFiles/Library.dir/test/AddressTest.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/test/AddressTest.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/test/AddressTest.cpp
+library/CMakeFiles/Library.dir/test/AddressTest.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/test/AddressTest.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/test/AddressTest.cpp.o -MF CMakeFiles/Library.dir/test/AddressTest.cpp.o.d -o CMakeFiles/Library.dir/test/AddressTest.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/test/AddressTest.cpp
+
+library/CMakeFiles/Library.dir/test/AddressTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/test/AddressTest.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/test/AddressTest.cpp > CMakeFiles/Library.dir/test/AddressTest.cpp.i
+
+library/CMakeFiles/Library.dir/test/AddressTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/test/AddressTest.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/test/AddressTest.cpp -o CMakeFiles/Library.dir/test/AddressTest.cpp.s
+
+library/CMakeFiles/Library.dir/test/RentTest.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/test/RentTest.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/test/RentTest.cpp
+library/CMakeFiles/Library.dir/test/RentTest.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/test/RentTest.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/test/RentTest.cpp.o -MF CMakeFiles/Library.dir/test/RentTest.cpp.o.d -o CMakeFiles/Library.dir/test/RentTest.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/test/RentTest.cpp
+
+library/CMakeFiles/Library.dir/test/RentTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/test/RentTest.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/test/RentTest.cpp > CMakeFiles/Library.dir/test/RentTest.cpp.i
+
+library/CMakeFiles/Library.dir/test/RentTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/test/RentTest.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/test/RentTest.cpp -o CMakeFiles/Library.dir/test/RentTest.cpp.s
+
+library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o: /home/student/CLionProjects/jedrzejczak/workshop/library/test/VehicleTest.cpp
+library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o -MF CMakeFiles/Library.dir/test/VehicleTest.cpp.o.d -o CMakeFiles/Library.dir/test/VehicleTest.cpp.o -c /home/student/CLionProjects/jedrzejczak/workshop/library/test/VehicleTest.cpp
+
+library/CMakeFiles/Library.dir/test/VehicleTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/test/VehicleTest.cpp.i"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/CLionProjects/jedrzejczak/workshop/library/test/VehicleTest.cpp > CMakeFiles/Library.dir/test/VehicleTest.cpp.i
+
+library/CMakeFiles/Library.dir/test/VehicleTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/test/VehicleTest.cpp.s"
+	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/CLionProjects/jedrzejczak/workshop/library/test/VehicleTest.cpp -o CMakeFiles/Library.dir/test/VehicleTest.cpp.s
+
 # Object files for target Library
 Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/model/Client.cpp.o" \
@@ -190,7 +288,14 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/model/Bicycle.cpp.o" \
 "CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o" \
 "CMakeFiles/Library.dir/src/model/Moped.cpp.o" \
-"CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
+"CMakeFiles/Library.dir/src/model/ClientType.cpp.o" \
+"CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o" \
+"CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o" \
+"CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o" \
+"CMakeFiles/Library.dir/src/StorageContainer.cpp.o" \
+"CMakeFiles/Library.dir/test/AddressTest.cpp.o" \
+"CMakeFiles/Library.dir/test/RentTest.cpp.o" \
+"CMakeFiles/Library.dir/test/VehicleTest.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -203,9 +308,16 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Bicycle.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/MotorVehicle.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/Moped.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/VehicleRepository.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/test/AddressTest.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/test/RentTest.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/test/VehicleTest.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libLibrary.a"
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	cd /home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 

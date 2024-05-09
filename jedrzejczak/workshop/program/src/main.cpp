@@ -1,38 +1,36 @@
 #include <iostream>
-#include "model/Client.h"
-#include "model/Address.h"
-#include "model/Vehicle.h"
-#include "model/Rent.h"
+#include <memory>
+#include "../../library/include/model/Address.h"
+#include "../../library/include/model/Vehicle.h"
+#include "../../library/include/model/Rent.h"
+#include "../../library/include/model/Client.h"
+#include "../../library/include/typedefs.h"
 
 int main() {
-    // Tworzenie adresu klienta
-    Address* clientAddress = new Address();
-    clientAddress->setCity("Kraków");
-    clientAddress->setStreet("Floriańska");
-    clientAddress->setNumber("15");
+    try {
+        // Utworzenie adresu klienta
+        auto clientAddress = std::make_shared<Address>("Kraków, Floriańska 15");
 
-    // Tworzenie klienta
-    Client* client1 = new Client("Jan", "Kowalski", "12345678901", clientAddress);
-    std::cout << client1->getInfo() << std::endl;
+        // Utworzenie klienta
+        auto client1 = std::make_shared<Client>("Jan", "Kowalski", "12345678901", clientAddress);
 
-    // Tworzenie pojazdu
-    Vehicle* vehicle1 = new Vehicle("DW12345", 150,true);
-    std::cout << vehicle1->getInfo() << std::endl;
+        // Utworzenie pojazdu
+        auto vehicle1 = std::make_shared<Vehicle>("DW12345", 150, true);
 
-    // Tworzenie wypożyczenia
-    Rent* rent1 = new Rent(1, client1, vehicle1);
-    client1->addRent(rent1); // Dodanie wypożyczenia do klienta
-    std::cout << rent1->getInfo() << std::endl;
+        // Utworzenie wypożyczenia
+        auto rent1 = std::make_shared<Rent>(1, client1, vehicle1);
 
-    // Usuwanie wypożyczenia
-    client1->removeRent(rent1);
-    std::cout << "Po usunięciu wypożyczenia, liczba wypożyczeń klienta: " << client1->getCurrentRents().size() << std::endl;
+        // Dodanie wypożyczenia do klienta
+        client1->addRent(rent1);
+        std::cout << "Wypożyczenie dodane. Informacje: " << rent1->getInfo() << std::endl;
 
-    // Czyszczenie zasobów
-    delete rent1;
-    delete vehicle1;
-    delete client1;
-    delete clientAddress;
+        // Usunięcie wypożyczenia
+        client1->removeRent(rent1);
+        std::cout << "Po usunięciu wypożyczenia, liczba wypożyczeń klienta: " << client1->getCurrentRents().size() << std::endl;
+    } catch (const std::exception& e) {
+        std::cerr << "Wystąpił wyjątek: " << e.what() << std::endl;
+        return 1; // Zwróć błąd
+    }
 
-    return 0;
+    return 0; // Zakończ program sukcesem
 }

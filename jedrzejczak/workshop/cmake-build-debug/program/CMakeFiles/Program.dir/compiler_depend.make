@@ -15,7 +15,6 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
-  /usr/include/c++/12/pstl/pstl_config.h \
   /usr/include/c++/12/ostream \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
@@ -130,9 +129,6 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
   /usr/include/c++/12/ext/alloc_traits.h \
   /usr/include/c++/12/bits/alloc_traits.h \
   /usr/include/c++/12/bits/stl_construct.h \
-  /usr/include/c++/12/string_view \
-  /usr/include/c++/12/bits/functional_hash.h \
-  /usr/include/c++/12/bits/string_view.tcc \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/cstdlib \
   /usr/include/stdlib.h \
@@ -164,6 +160,7 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
+  /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/basic_string.tcc \
   /usr/include/c++/12/bits/locale_classes.tcc \
   /usr/include/c++/12/system_error \
@@ -184,27 +181,66 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/memory \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12/bits/align.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/unique_ptr.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12/bits/atomic_base.h \
+  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12/backward/auto_ptr.h \
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Address.h \
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Vehicle.h \
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Rent.h \
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Vehicle.h \
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/typedefs.h \
   /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Client.h \
   /usr/include/c++/12/vector \
-  /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
   /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Address.h \
   /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Rent.h \
-  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Vehicle.h \
-  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Address.h \
-  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Vehicle.h \
-  /home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Rent.h
+  /home/student/CLionProjects/jedrzejczak/workshop/library/include/typedefs.h
 
-
-/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Address.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
 /usr/include/c++/12/bits/stl_vector.h:
 
+/home/student/CLionProjects/jedrzejczak/workshop/library/include/typedefs.h:
+
+/home/student/CLionProjects/jedrzejczak/workshop/library/include/model/Address.h:
+
+/usr/include/c++/12/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/12/ext/aligned_buffer.h:
+
+/usr/include/c++/12/bits/allocated_ptr.h:
+
+/usr/include/c++/12/bits/shared_ptr_base.h:
+
+/usr/include/c++/12/bit:
+
+/usr/include/c++/12/bits/align.h:
+
+/usr/include/c++/12/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/12/bits/stl_tempbuf.h:
+
 /usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/memory:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -212,7 +248,11 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
+/usr/include/c++/12/bits/unique_ptr.h:
+
 /usr/include/c++/12/cwctype:
+
+/usr/include/c++/12/tuple:
 
 /usr/include/c++/12/bits/ostream.tcc:
 
@@ -246,6 +286,10 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+/usr/include/c++/12/bits/functional_hash.h:
+
+/usr/include/stdio.h:
+
 /usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -253,6 +297,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/12/ext/concurrence.h:
 
 /usr/include/endian.h:
 
@@ -264,23 +310,17 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/include/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/12/cstdlib:
 
 /usr/include/c++/12/ext/string_conversions.h:
 
-/usr/include/stdlib.h:
-
-/usr/include/c++/12/bits/string_view.tcc:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/12/bits/functional_hash.h:
-
 /usr/include/c++/12/bits/stl_construct.h:
 
-/usr/include/c++/12/bits/alloc_traits.h:
+/usr/include/c++/12/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -291,6 +331,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
+
+/usr/include/c++/12/cstdint:
 
 /usr/include/c++/12/bits/char_traits.h:
 
@@ -396,37 +438,27 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/stdc-predef.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+
+/usr/include/c++/12/clocale:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /home/student/CLionProjects/jedrzejczak/workshop/program/src/main.cpp:
 
-/usr/include/c++/12/cstdint:
-
-/usr/include/c++/12/clocale:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/12/cwchar:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
-
-/usr/include/wchar.h:
-
 /usr/include/c++/12/ostream:
 
 /usr/include/c++/12/ios:
 
+/usr/include/c++/12/bits/atomic_base.h:
+
 /usr/include/c++/12/istream:
 
 /usr/include/c++/12/stdexcept:
-
-/usr/include/c++/12/string_view:
 
 /usr/include/c++/12/cctype:
 
@@ -448,6 +480,14 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/usr/include/c++/12/cwchar:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/12/bits/alloc_traits.h:
+
 /usr/include/c++/12/bits/localefwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -461,6 +501,10 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/12/backward/auto_ptr.h:
 
 /usr/include/c++/12/iostream:
 
@@ -510,6 +554,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
+/usr/include/c++/12/bits/shared_ptr.h:
+
 /usr/include/c++/12/initializer_list:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
@@ -546,6 +592,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/12/bits/uses_allocator.h:
+
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
@@ -555,8 +603,6 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/CLionProjects/jedrz
 /usr/include/c++/12/debug/debug.h:
 
 /usr/include/c++/12/bits/stl_function.h:
-
-/usr/include/c++/12/pstl/pstl_config.h:
 
 /usr/include/c++/12/ext/numeric_traits.h:
 

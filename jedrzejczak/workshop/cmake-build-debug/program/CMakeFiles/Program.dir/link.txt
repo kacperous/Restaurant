@@ -1,1 +1,1 @@
-/usr/bin/g++ -g3 -gdwarf-4 -Wall -Wpedantic -Wextra CMakeFiles/Program.dir/src/main.cpp.o -o Program  ../library/libLibrary.a 
+/usr/bin/g++ -g CMakeFiles/Program.dir/src/main.cpp.o -o Program  ../library/libLibrary.a 

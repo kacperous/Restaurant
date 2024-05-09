@@ -1,19 +1,15 @@
-cmake_minimum_required(VERSION 3.10) # Używamy najnowszej wymaganej wersji
+cmake_minimum_required(VERSION 3.10)
+project(Workshop)
 
-project(workshop)
+# Ustawienie standardu C++ na C++14
+set(CMAKE_CXX_STANDARD 14)
 
-# Włączenie testowania
-enable_testing()
+# Dodanie katalogu z nagłówkami
+include_directories(include)
 
-# Ustawienie standardu C++17
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-# Dodatkowe flagi kompilatora dla debugowania
-set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS_DEBUG "-g3 -gdwarf-4 -Wall -Wpedantic -Wextra")
-
-# Dodanie podprojektów
+# Dodanie podkatalogów
 add_subdirectory(library)
 add_subdirectory(program)
 
+# Jeśli potrzebujesz linkować biblioteki z podprojektów
+# target_link_libraries(main_library main_program)

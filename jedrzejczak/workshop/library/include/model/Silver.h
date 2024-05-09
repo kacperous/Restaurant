@@ -1,7 +1,3 @@
-//
-// Created by student on 03.05.24.
-//
-
 #ifndef CARRENTAL_SILVER_H
 #define CARRENTAL_SILVER_H
 #include "ClientType.h"

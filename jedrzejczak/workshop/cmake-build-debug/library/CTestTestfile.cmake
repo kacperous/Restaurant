@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(LibraryTest "/home/student/CLionProjects/jedrzejczak/workshop/cmake-build-debug/library/LibraryTester")
-set_tests_properties(LibraryTest PROPERTIES  _BACKTRACE_TRIPLES "/home/student/CLionProjects/jedrzejczak/workshop/library/CMakeLists.txt;43;add_test;/home/student/CLionProjects/jedrzejczak/workshop/library/CMakeLists.txt;0;")
+set_tests_properties(LibraryTest PROPERTIES  _BACKTRACE_TRIPLES "/home/student/CLionProjects/jedrzejczak/workshop/library/CMakeLists.txt;37;add_test;/home/student/CLionProjects/jedrzejczak/workshop/library/CMakeLists.txt;0;")
