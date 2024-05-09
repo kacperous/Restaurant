@@ -33,6 +33,7 @@ public:
     int getMaxVehicles() const;
     double applyDiscount(double price) const;
     void setClientType(ClientType *newClientType);
+    string toString() const;
 
 private:
     void printDiagnostic(string message);
