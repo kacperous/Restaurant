@@ -7,13 +7,17 @@ struct TestSuiteClientFixture {
     const std::string testLastName = "Arbuckle";
     const std::string testPersonalID = "0123456789";
     ClientType *clientType;
-    AdressPtr testaddress1;
+    Adress *testaddress1;
+    Adress *testaddress2;
 
     TestSuiteClientFixture() {
-        AdressPtr testaddress = make_shared<Adress>("London", "Rue Morgue", "13");
+        testaddress1 = new Adress("London", "Accacia Avenue", "22");
+        testaddress2 = new Adress("London", "Rue Morgue", "13");
     }
 
     ~TestSuiteClientFixture() {
+        delete testaddress1;
+        delete testaddress2;
     }
 
 };

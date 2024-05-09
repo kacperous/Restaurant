@@ -25,14 +25,6 @@ set(SOURCE_FILES
         src/model/Moped.cpp
         src/model/Car.cpp
         include/model/ClientType.h
-        include/repositories/ClientRepository.h
-        include/repositories/VehicleRepository.h
-        include/repositories/RentRepository.h
-        src/repositories/ClientRepository.cpp
-        src/repositories/RentRepository.cpp
-        src/repositories/VehicleRepository.cpp
-        include/StorageContainer.h
-        src/StorageContainer.cpp
 )
 
 # Utwórz bibliotekę typu STATIC, SHARED albo MODULE ze wskazanych źródeł

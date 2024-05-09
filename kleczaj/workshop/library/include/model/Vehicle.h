@@ -23,7 +23,4 @@ public:
     void setRented(const bool &isRented);
     virtual void getInfo() const;
     virtual double getActualRentalPrice() const;
-    string toString(){
-        return plateNumber+" "+ to_string(basePrice);
-    }
 };

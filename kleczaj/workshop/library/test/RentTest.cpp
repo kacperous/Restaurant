@@ -3,18 +3,18 @@
 #include "model/Client.h"
 #include "model/Vehicle.h"
 #include "model/Adress.h"
-
 using namespace std;
 
 struct TestSuiteRentFixture{
     const int id = 1;
-    ClientType *type= new Default();
-    AdressPtr a1=make_shared<Adress>("London", "Accacia Avenue", "22");
-    ClientPtr c1=make_shared<Client>("Marian","Kucyk","12",a1,type);
-    VehiclePtr w1=make_shared<Vehicle>("WSZ23131",760,false);
+    Adress *a1 = new Adress("London", "Accacia Avenue", "22");
+    Client* c1=new Client("Marian","Kucyk","12",a1);
+    Vehicle* w1=new Vehicle("WSZ23131",760,false);
 
     ~TestSuiteRentFixture(){
-
+        delete a1;
+        delete c1;
+        //delete w1;
     }
 };
 

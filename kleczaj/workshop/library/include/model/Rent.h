@@ -26,7 +26,4 @@ public:
     int getRentDays() const;
     pt::ptime getBeginTime() const;
     pt::ptime getEndTime() const;
-    string toString() const {
-        return to_string(id);
-    }
 };
