@@ -57,3 +57,6 @@ double Client::applyDiscount(double price) const {
 void Client::setClientType(ClientType *newClientType) {
     clientType=newClientType;
 }
+string Client::toString() const {
+    return firstName+" "+lastName+" "+personalID+"\n";
+}
