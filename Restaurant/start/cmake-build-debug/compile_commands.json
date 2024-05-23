@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/program",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/../library/include/model -I/home/student/Pulpit/Restaurant/start/program/include -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/student/Pulpit/Restaurant/start/program/src/main.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/program/src/main.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Restaurant.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Restaurant.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Restaurant.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/RestaurantTest.cpp.o -c /home/student/Pulpit/Restaurant/start/library/test/RestaurantTest.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/test/RestaurantTest.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Adress.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Adress.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Adress.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Table.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Table.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Table.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Reservation.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Reservation.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Reservation.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Client.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Client.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Client.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Default.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/Default.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/Default.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/VIP.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/model/VIP.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/model/VIP.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/StorageContainer.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/StorageContainer.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/StorageContainer.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/repositories/ClientRepositories.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/repositories/ClientRepositories.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/repositories/ReservationRepositories.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/repositories/ReservationRepositories.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++  -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o -c /home/student/Pulpit/Restaurant/start/library/src/repositories/TableRepositories.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/src/repositories/TableRepositories.cpp"
+},
+{
+  "directory": "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/Pulpit/Restaurant/start/library/include  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/master.cpp.o -c /home/student/Pulpit/Restaurant/start/library/test/master.cpp",
+  "file": "/home/student/Pulpit/Restaurant/start/library/test/master.cpp"
+}
+]

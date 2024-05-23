@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra CMakeFiles/LibraryTester.dir/test/master.cpp.o -o LibraryTester  libLibrary.a /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0 
