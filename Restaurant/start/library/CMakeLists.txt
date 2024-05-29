@@ -31,6 +31,10 @@ set(SOURCE_FILES
         include/repositories/ReservationRepositories.h
         src/repositories/TableRepositories.cpp
         include/repositories/TableRepositories.h
+        include/managers/TableManager.h
+        src/managers/TableManager.cpp
+        include/managers/ReservationManager.h
+        src/managers/ReservationManager.cpp
 )
 
 add_library(Library ${SOURCE_FILES})

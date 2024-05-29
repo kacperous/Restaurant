@@ -1,7 +1,8 @@
-library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp \
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/../../include/repositories/ReservationRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -186,6 +187,4 @@ library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/../../include/model/typedefs.h \
- /usr/include/c++/12/algorithm \
- /usr/include/c++/12/pstl/glue_algorithm_defs.h
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h

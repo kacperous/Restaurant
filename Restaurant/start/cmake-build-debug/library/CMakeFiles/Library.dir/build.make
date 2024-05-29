@@ -254,6 +254,34 @@ library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s"
 	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s
 
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/TableManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
+
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/TableManager.cpp.i"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp > CMakeFiles/Library.dir/src/managers/TableManager.cpp.i
+
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/TableManager.cpp.s"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.s
+
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
+
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp > CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i
+
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s
+
 # Object files for target Library
 Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/model/Restaurant.cpp.o" \
@@ -268,7 +296,9 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o" \
 "CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o" \
 "CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o" \
-"CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o"
+"CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o" \
+"CMakeFiles/Library.dir/src/managers/TableManager.cpp.o" \
+"CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -286,9 +316,11 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/Restaurant
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libLibrary.a"
 	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 

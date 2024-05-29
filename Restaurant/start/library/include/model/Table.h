@@ -14,11 +14,11 @@ public:
 
     void setTableSize(int tableSize);
 
-    bool isReserved1() const;
+    bool GetisReserved() const;
 
     void setIsReserved(bool isReserved);
 
-    bool isVipTable1() const;
+    bool GetisVipTable() const;
 
     void setIsVipTable(bool isVipTable);
 

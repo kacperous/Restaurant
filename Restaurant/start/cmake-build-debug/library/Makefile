@@ -195,6 +195,54 @@ src/StorageContainer.cpp.s:
 	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s
 .PHONY : src/StorageContainer.cpp.s
 
+src/managers/ReservationManager.o: src/managers/ReservationManager.cpp.o
+.PHONY : src/managers/ReservationManager.o
+
+# target to build an object file
+src/managers/ReservationManager.cpp.o:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o
+.PHONY : src/managers/ReservationManager.cpp.o
+
+src/managers/ReservationManager.i: src/managers/ReservationManager.cpp.i
+.PHONY : src/managers/ReservationManager.i
+
+# target to preprocess a source file
+src/managers/ReservationManager.cpp.i:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i
+.PHONY : src/managers/ReservationManager.cpp.i
+
+src/managers/ReservationManager.s: src/managers/ReservationManager.cpp.s
+.PHONY : src/managers/ReservationManager.s
+
+# target to generate assembly for a file
+src/managers/ReservationManager.cpp.s:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s
+.PHONY : src/managers/ReservationManager.cpp.s
+
+src/managers/TableManager.o: src/managers/TableManager.cpp.o
+.PHONY : src/managers/TableManager.o
+
+# target to build an object file
+src/managers/TableManager.cpp.o:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o
+.PHONY : src/managers/TableManager.cpp.o
+
+src/managers/TableManager.i: src/managers/TableManager.cpp.i
+.PHONY : src/managers/TableManager.i
+
+# target to preprocess a source file
+src/managers/TableManager.cpp.i:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.i
+.PHONY : src/managers/TableManager.cpp.i
+
+src/managers/TableManager.s: src/managers/TableManager.cpp.s
+.PHONY : src/managers/TableManager.s
+
+# target to generate assembly for a file
+src/managers/TableManager.cpp.s:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.s
+.PHONY : src/managers/TableManager.cpp.s
+
 src/model/Adress.o: src/model/Adress.cpp.o
 .PHONY : src/model/Adress.o
 
@@ -522,6 +570,12 @@ help:
 	@echo "... src/StorageContainer.o"
 	@echo "... src/StorageContainer.i"
 	@echo "... src/StorageContainer.s"
+	@echo "... src/managers/ReservationManager.o"
+	@echo "... src/managers/ReservationManager.i"
+	@echo "... src/managers/ReservationManager.s"
+	@echo "... src/managers/TableManager.o"
+	@echo "... src/managers/TableManager.i"
+	@echo "... src/managers/TableManager.s"
 	@echo "... src/model/Adress.o"
 	@echo "... src/model/Adress.i"
 	@echo "... src/model/Adress.s"

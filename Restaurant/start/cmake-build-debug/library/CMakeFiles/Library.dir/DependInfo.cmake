@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp" "library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o.d"
+  "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp" "library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d"
+  "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp" "library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o.d"
   "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp" "library/CMakeFiles/Library.dir/src/model/Adress.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/model/Adress.cpp.o.d"
   "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp" "library/CMakeFiles/Library.dir/src/model/Client.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/model/Client.cpp.o.d"
   "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp" "library/CMakeFiles/Library.dir/src/model/Default.cpp.o" "gcc" "library/CMakeFiles/Library.dir/src/model/Default.cpp.o.d"
