@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/StorageContainer.cpp.o"
   "CMakeFiles/Library.dir/src/StorageContainer.cpp.o.d"
+  "CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o"
+  "CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o.d"
   "CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
   "CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d"
   "CMakeFiles/Library.dir/src/managers/TableManager.cpp.o"

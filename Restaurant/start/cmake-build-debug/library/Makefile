@@ -195,6 +195,30 @@ src/StorageContainer.cpp.s:
 	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s
 .PHONY : src/StorageContainer.cpp.s
 
+src/managers/ClientManager.o: src/managers/ClientManager.cpp.o
+.PHONY : src/managers/ClientManager.o
+
+# target to build an object file
+src/managers/ClientManager.cpp.o:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o
+.PHONY : src/managers/ClientManager.cpp.o
+
+src/managers/ClientManager.i: src/managers/ClientManager.cpp.i
+.PHONY : src/managers/ClientManager.i
+
+# target to preprocess a source file
+src/managers/ClientManager.cpp.i:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.i
+.PHONY : src/managers/ClientManager.cpp.i
+
+src/managers/ClientManager.s: src/managers/ClientManager.cpp.s
+.PHONY : src/managers/ClientManager.s
+
+# target to generate assembly for a file
+src/managers/ClientManager.cpp.s:
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.s
+.PHONY : src/managers/ClientManager.cpp.s
+
 src/managers/ReservationManager.o: src/managers/ReservationManager.cpp.o
 .PHONY : src/managers/ReservationManager.o
 
@@ -570,6 +594,9 @@ help:
 	@echo "... src/StorageContainer.o"
 	@echo "... src/StorageContainer.i"
 	@echo "... src/StorageContainer.s"
+	@echo "... src/managers/ClientManager.o"
+	@echo "... src/managers/ClientManager.i"
+	@echo "... src/managers/ClientManager.s"
 	@echo "... src/managers/ReservationManager.o"
 	@echo "... src/managers/ReservationManager.i"
 	@echo "... src/managers/ReservationManager.s"

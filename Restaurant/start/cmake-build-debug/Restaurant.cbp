@@ -207,6 +207,9 @@
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/StorageContainer.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h">
 			<Option target="Library"/>
 		</Unit>
@@ -253,6 +256,9 @@
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp">

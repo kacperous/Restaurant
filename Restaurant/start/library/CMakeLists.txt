@@ -35,6 +35,8 @@ set(SOURCE_FILES
         src/managers/TableManager.cpp
         include/managers/ReservationManager.h
         src/managers/ReservationManager.cpp
+        src/managers/ClientManager.cpp
+        include/managers/ClientManager.h
 )
 
 add_library(Library ${SOURCE_FILES})

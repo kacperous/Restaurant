@@ -1,7 +1,8 @@
-library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp \
+library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/../../include/repositories/ClientRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -172,5 +173,22 @@ library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /usr/include/c++/12/algorithm \
- /usr/include/c++/12/pstl/glue_algorithm_defs.h
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/bits/ios_base.h \
+ /usr/include/c++/12/bits/locale_classes.h \
+ /usr/include/c++/12/bits/locale_classes.tcc \
+ /usr/include/c++/12/system_error \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
+ /usr/include/c++/12/stdexcept /usr/include/c++/12/streambuf \
+ /usr/include/c++/12/bits/streambuf.tcc \
+ /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
+ /usr/include/c++/12/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
+ /usr/include/c++/12/bits/locale_facets.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/ctime
