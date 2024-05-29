@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Pulpit/Restaurant/start/library
+# Install script for directory: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

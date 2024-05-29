@@ -1,1 +1,0 @@
-g++ -g3 -gdwarf-4 CMakeFiles/Restaurant.dir/program/src/main.cpp.o -o Restaurant 

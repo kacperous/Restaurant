@@ -1,7 +1,7 @@
 library/CMakeFiles/Library.dir/src/model/Adress.cpp.o: \
- /home/student/Pulpit/Restaurant/start/library/src/model/Adress.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
  /usr/include/c++/12/string \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

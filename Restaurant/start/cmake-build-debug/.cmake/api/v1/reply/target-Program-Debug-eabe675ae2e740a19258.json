@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "library/LibraryTester"
+			"path" : "program/Program"
 		}
 	],
 	"backtrace" : 1,
@@ -12,11 +12,11 @@
 		[
 			"add_executable",
 			"target_link_libraries",
-			"include_directories"
+			"target_include_directories"
 		],
 		"files" : 
 		[
-			"library/CMakeLists.txt"
+			"program/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,19 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 52,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 42,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -55,22 +61,19 @@
 					"fragment" : "-std=gnu++17"
 				}
 			],
-			"defines" : 
-			[
-				{
-					"backtrace" : 2,
-					"define" : "BOOST_ALL_NO_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "BOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"
-				}
-			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/student/Pulpit/Restaurant/start/library/include"
+					"path" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/../library/include/model"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/program/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include"
 				}
 			],
 			"language" : "CXX",
@@ -95,7 +98,7 @@
 			"id" : "Library::@25993c7f548492bbc626"
 		}
 	],
-	"id" : "LibraryTester::@25993c7f548492bbc626",
+	"id" : "Program::@2ccacb0f417df79f0f19",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -110,23 +113,18 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libLibrary.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",
+				"fragment" : "../library/libLibrary.a",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "LibraryTester",
-	"nameOnDisk" : "LibraryTester",
+	"name" : "Program",
+	"nameOnDisk" : "Program",
 	"paths" : 
 	{
-		"build" : "library",
-		"source" : "library"
+		"build" : "program",
+		"source" : "program"
 	},
 	"sourceGroups" : 
 	[
@@ -143,7 +141,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "library/test/master.cpp",
+			"path" : "program/src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

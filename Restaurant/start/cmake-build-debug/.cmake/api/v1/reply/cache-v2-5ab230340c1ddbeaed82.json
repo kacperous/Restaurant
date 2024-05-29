@@ -74,18 +74,6 @@
 			"value" : "/usr/bin/ar"
 		},
 		{
-			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "For backwards compatibility, what version of CMake commands and syntax should this version of CMake try to support."
-				}
-			],
-			"type" : "STRING",
-			"value" : "2.4"
-		},
-		{
 			"name" : "CMAKE_BUILD_TYPE",
 			"properties" : 
 			[
@@ -107,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/student/Pulpit/Restaurant/start/cmake-build-debug"
+			"value" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -179,7 +167,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-j3"
+			"value" : "-j8"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -244,22 +232,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/usr/bin/ctest"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -372,22 +344,6 @@
 			],
 			"type" : "STRING",
 			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -695,7 +651,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/student/Pulpit/Restaurant/start/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -755,7 +711,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/student/Pulpit/Restaurant/start"
+			"value" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1278,18 +1234,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "EXECUTABLE_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all executables."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Boost",
 			"properties" : 
 			[
@@ -1300,54 +1244,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: unit_test_framework ][v1.74.0(1.60.0)]"
-		},
-		{
-			"name" : "LIBRARY_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all libraries."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "Library_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library"
-		},
-		{
-			"name" : "Library_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "Library_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/student/Pulpit/Restaurant/start/library"
 		},
 		{
 			"name" : "ProcessorCount_cmd_nproc",
@@ -1391,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/student/Pulpit/Restaurant/start/cmake-build-debug/library"
+			"value" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library"
 		},
 		{
 			"name" : "Restaurant_IS_TOP_LEVEL",
@@ -1415,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/student/Pulpit/Restaurant/start/library"
+			"value" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

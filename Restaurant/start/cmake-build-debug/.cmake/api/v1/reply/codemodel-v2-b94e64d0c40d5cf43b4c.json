@@ -77,21 +77,21 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Library::@25993c7f548492bbc626",
-					"jsonFile" : "target-Library-Debug-b9dac62d1bda8eeac93a.json",
+					"jsonFile" : "target-Library-Debug-337100047fa252a8a6a0.json",
 					"name" : "Library",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "LibraryTester::@25993c7f548492bbc626",
-					"jsonFile" : "target-LibraryTester-Debug-655d1b89ec54de7de50a.json",
+					"jsonFile" : "target-LibraryTester-Debug-e3593c3920f6385e51d6.json",
 					"name" : "LibraryTester",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Program::@2ccacb0f417df79f0f19",
-					"jsonFile" : "target-Program-Debug-10bcb00a483c93c59c5f.json",
+					"jsonFile" : "target-Program-Debug-eabe675ae2e740a19258.json",
 					"name" : "Program",
 					"projectIndex" : 0
 				},
@@ -108,8 +108,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/student/Pulpit/Restaurant/start/cmake-build-debug",
-		"source" : "/home/student/Pulpit/Restaurant/start"
+		"build" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug",
+		"source" : "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start"
 	},
 	"version" : 
 	{

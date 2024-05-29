@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Pulpit/Restaurant/start
+CMAKE_SOURCE_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Pulpit/Restaurant/start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/Pulpit/Restaurant/start/cmake-build-debug/CMakeFiles /home/student/Pulpit/Restaurant/start/cmake-build-debug/library//CMakeFiles/progress.marks
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Pulpit/Restaurant/start/cmake-build-debug/CMakeFiles 0
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library//CMakeFiles/progress.marks
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/clean
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/CMakeFiles/Library.dir/rule:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/rule
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/rule
 .PHONY : library/CMakeFiles/Library.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ Library: library/CMakeFiles/Library.dir/rule
 
 # fast build rule for target.
 Library/fast:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
 # Convenience name for target.
 library/CMakeFiles/LibraryTester.dir/rule:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTester.dir/rule
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/LibraryTester.dir/rule
 .PHONY : library/CMakeFiles/LibraryTester.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ LibraryTester: library/CMakeFiles/LibraryTester.dir/rule
 
 # fast build rule for target.
 LibraryTester/fast:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/build
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/build
 .PHONY : LibraryTester/fast
 
 # Convenience name for target.
 library/CMakeFiles/check.dir/rule:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
 .PHONY : library/CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ check: library/CMakeFiles/check.dir/rule
 
 # fast build rule for target.
 check/fast:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
 src/StorageContainer.o: src/StorageContainer.cpp.o
@@ -176,7 +176,7 @@ src/StorageContainer.o: src/StorageContainer.cpp.o
 
 # target to build an object file
 src/StorageContainer.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o
 .PHONY : src/StorageContainer.cpp.o
 
 src/StorageContainer.i: src/StorageContainer.cpp.i
@@ -184,7 +184,7 @@ src/StorageContainer.i: src/StorageContainer.cpp.i
 
 # target to preprocess a source file
 src/StorageContainer.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.i
 .PHONY : src/StorageContainer.cpp.i
 
 src/StorageContainer.s: src/StorageContainer.cpp.s
@@ -192,7 +192,7 @@ src/StorageContainer.s: src/StorageContainer.cpp.s
 
 # target to generate assembly for a file
 src/StorageContainer.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s
 .PHONY : src/StorageContainer.cpp.s
 
 src/model/Adress.o: src/model/Adress.cpp.o
@@ -200,7 +200,7 @@ src/model/Adress.o: src/model/Adress.cpp.o
 
 # target to build an object file
 src/model/Adress.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.o
 .PHONY : src/model/Adress.cpp.o
 
 src/model/Adress.i: src/model/Adress.cpp.i
@@ -208,7 +208,7 @@ src/model/Adress.i: src/model/Adress.cpp.i
 
 # target to preprocess a source file
 src/model/Adress.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.i
 .PHONY : src/model/Adress.cpp.i
 
 src/model/Adress.s: src/model/Adress.cpp.s
@@ -216,7 +216,7 @@ src/model/Adress.s: src/model/Adress.cpp.s
 
 # target to generate assembly for a file
 src/model/Adress.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Adress.cpp.s
 .PHONY : src/model/Adress.cpp.s
 
 src/model/Client.o: src/model/Client.cpp.o
@@ -224,7 +224,7 @@ src/model/Client.o: src/model/Client.cpp.o
 
 # target to build an object file
 src/model/Client.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.o
 .PHONY : src/model/Client.cpp.o
 
 src/model/Client.i: src/model/Client.cpp.i
@@ -232,7 +232,7 @@ src/model/Client.i: src/model/Client.cpp.i
 
 # target to preprocess a source file
 src/model/Client.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.i
 .PHONY : src/model/Client.cpp.i
 
 src/model/Client.s: src/model/Client.cpp.s
@@ -240,7 +240,7 @@ src/model/Client.s: src/model/Client.cpp.s
 
 # target to generate assembly for a file
 src/model/Client.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Client.cpp.s
 .PHONY : src/model/Client.cpp.s
 
 src/model/Default.o: src/model/Default.cpp.o
@@ -248,7 +248,7 @@ src/model/Default.o: src/model/Default.cpp.o
 
 # target to build an object file
 src/model/Default.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.o
 .PHONY : src/model/Default.cpp.o
 
 src/model/Default.i: src/model/Default.cpp.i
@@ -256,7 +256,7 @@ src/model/Default.i: src/model/Default.cpp.i
 
 # target to preprocess a source file
 src/model/Default.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.i
 .PHONY : src/model/Default.cpp.i
 
 src/model/Default.s: src/model/Default.cpp.s
@@ -264,7 +264,7 @@ src/model/Default.s: src/model/Default.cpp.s
 
 # target to generate assembly for a file
 src/model/Default.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Default.cpp.s
 .PHONY : src/model/Default.cpp.s
 
 src/model/Reservation.o: src/model/Reservation.cpp.o
@@ -272,7 +272,7 @@ src/model/Reservation.o: src/model/Reservation.cpp.o
 
 # target to build an object file
 src/model/Reservation.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o
 .PHONY : src/model/Reservation.cpp.o
 
 src/model/Reservation.i: src/model/Reservation.cpp.i
@@ -280,7 +280,7 @@ src/model/Reservation.i: src/model/Reservation.cpp.i
 
 # target to preprocess a source file
 src/model/Reservation.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.i
 .PHONY : src/model/Reservation.cpp.i
 
 src/model/Reservation.s: src/model/Reservation.cpp.s
@@ -288,7 +288,7 @@ src/model/Reservation.s: src/model/Reservation.cpp.s
 
 # target to generate assembly for a file
 src/model/Reservation.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Reservation.cpp.s
 .PHONY : src/model/Reservation.cpp.s
 
 src/model/Restaurant.o: src/model/Restaurant.cpp.o
@@ -296,7 +296,7 @@ src/model/Restaurant.o: src/model/Restaurant.cpp.o
 
 # target to build an object file
 src/model/Restaurant.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o
 .PHONY : src/model/Restaurant.cpp.o
 
 src/model/Restaurant.i: src/model/Restaurant.cpp.i
@@ -304,7 +304,7 @@ src/model/Restaurant.i: src/model/Restaurant.cpp.i
 
 # target to preprocess a source file
 src/model/Restaurant.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.i
 .PHONY : src/model/Restaurant.cpp.i
 
 src/model/Restaurant.s: src/model/Restaurant.cpp.s
@@ -312,7 +312,7 @@ src/model/Restaurant.s: src/model/Restaurant.cpp.s
 
 # target to generate assembly for a file
 src/model/Restaurant.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.s
 .PHONY : src/model/Restaurant.cpp.s
 
 src/model/Table.o: src/model/Table.cpp.o
@@ -320,7 +320,7 @@ src/model/Table.o: src/model/Table.cpp.o
 
 # target to build an object file
 src/model/Table.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.o
 .PHONY : src/model/Table.cpp.o
 
 src/model/Table.i: src/model/Table.cpp.i
@@ -328,7 +328,7 @@ src/model/Table.i: src/model/Table.cpp.i
 
 # target to preprocess a source file
 src/model/Table.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.i
 .PHONY : src/model/Table.cpp.i
 
 src/model/Table.s: src/model/Table.cpp.s
@@ -336,7 +336,7 @@ src/model/Table.s: src/model/Table.cpp.s
 
 # target to generate assembly for a file
 src/model/Table.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/Table.cpp.s
 .PHONY : src/model/Table.cpp.s
 
 src/model/VIP.o: src/model/VIP.cpp.o
@@ -344,7 +344,7 @@ src/model/VIP.o: src/model/VIP.cpp.o
 
 # target to build an object file
 src/model/VIP.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.o
 .PHONY : src/model/VIP.cpp.o
 
 src/model/VIP.i: src/model/VIP.cpp.i
@@ -352,7 +352,7 @@ src/model/VIP.i: src/model/VIP.cpp.i
 
 # target to preprocess a source file
 src/model/VIP.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.i
 .PHONY : src/model/VIP.cpp.i
 
 src/model/VIP.s: src/model/VIP.cpp.s
@@ -360,7 +360,7 @@ src/model/VIP.s: src/model/VIP.cpp.s
 
 # target to generate assembly for a file
 src/model/VIP.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/model/VIP.cpp.s
 .PHONY : src/model/VIP.cpp.s
 
 src/repositories/ClientRepositories.o: src/repositories/ClientRepositories.cpp.o
@@ -368,7 +368,7 @@ src/repositories/ClientRepositories.o: src/repositories/ClientRepositories.cpp.o
 
 # target to build an object file
 src/repositories/ClientRepositories.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o
 .PHONY : src/repositories/ClientRepositories.cpp.o
 
 src/repositories/ClientRepositories.i: src/repositories/ClientRepositories.cpp.i
@@ -376,7 +376,7 @@ src/repositories/ClientRepositories.i: src/repositories/ClientRepositories.cpp.i
 
 # target to preprocess a source file
 src/repositories/ClientRepositories.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i
 .PHONY : src/repositories/ClientRepositories.cpp.i
 
 src/repositories/ClientRepositories.s: src/repositories/ClientRepositories.cpp.s
@@ -384,7 +384,7 @@ src/repositories/ClientRepositories.s: src/repositories/ClientRepositories.cpp.s
 
 # target to generate assembly for a file
 src/repositories/ClientRepositories.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s
 .PHONY : src/repositories/ClientRepositories.cpp.s
 
 src/repositories/ReservationRepositories.o: src/repositories/ReservationRepositories.cpp.o
@@ -392,7 +392,7 @@ src/repositories/ReservationRepositories.o: src/repositories/ReservationReposito
 
 # target to build an object file
 src/repositories/ReservationRepositories.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o
 .PHONY : src/repositories/ReservationRepositories.cpp.o
 
 src/repositories/ReservationRepositories.i: src/repositories/ReservationRepositories.cpp.i
@@ -400,7 +400,7 @@ src/repositories/ReservationRepositories.i: src/repositories/ReservationReposito
 
 # target to preprocess a source file
 src/repositories/ReservationRepositories.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i
 .PHONY : src/repositories/ReservationRepositories.cpp.i
 
 src/repositories/ReservationRepositories.s: src/repositories/ReservationRepositories.cpp.s
@@ -408,7 +408,7 @@ src/repositories/ReservationRepositories.s: src/repositories/ReservationReposito
 
 # target to generate assembly for a file
 src/repositories/ReservationRepositories.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s
 .PHONY : src/repositories/ReservationRepositories.cpp.s
 
 src/repositories/RestaurantRepositories.o: src/repositories/RestaurantRepositories.cpp.o
@@ -416,7 +416,7 @@ src/repositories/RestaurantRepositories.o: src/repositories/RestaurantRepositori
 
 # target to build an object file
 src/repositories/RestaurantRepositories.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o
 .PHONY : src/repositories/RestaurantRepositories.cpp.o
 
 src/repositories/RestaurantRepositories.i: src/repositories/RestaurantRepositories.cpp.i
@@ -424,7 +424,7 @@ src/repositories/RestaurantRepositories.i: src/repositories/RestaurantRepositori
 
 # target to preprocess a source file
 src/repositories/RestaurantRepositories.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i
 .PHONY : src/repositories/RestaurantRepositories.cpp.i
 
 src/repositories/RestaurantRepositories.s: src/repositories/RestaurantRepositories.cpp.s
@@ -432,7 +432,7 @@ src/repositories/RestaurantRepositories.s: src/repositories/RestaurantRepositori
 
 # target to generate assembly for a file
 src/repositories/RestaurantRepositories.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s
 .PHONY : src/repositories/RestaurantRepositories.cpp.s
 
 src/repositories/TableRepositories.o: src/repositories/TableRepositories.cpp.o
@@ -440,7 +440,7 @@ src/repositories/TableRepositories.o: src/repositories/TableRepositories.cpp.o
 
 # target to build an object file
 src/repositories/TableRepositories.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o
 .PHONY : src/repositories/TableRepositories.cpp.o
 
 src/repositories/TableRepositories.i: src/repositories/TableRepositories.cpp.i
@@ -448,7 +448,7 @@ src/repositories/TableRepositories.i: src/repositories/TableRepositories.cpp.i
 
 # target to preprocess a source file
 src/repositories/TableRepositories.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i
 .PHONY : src/repositories/TableRepositories.cpp.i
 
 src/repositories/TableRepositories.s: src/repositories/TableRepositories.cpp.s
@@ -456,7 +456,7 @@ src/repositories/TableRepositories.s: src/repositories/TableRepositories.cpp.s
 
 # target to generate assembly for a file
 src/repositories/TableRepositories.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s
 .PHONY : src/repositories/TableRepositories.cpp.s
 
 test/RestaurantTest.o: test/RestaurantTest.cpp.o
@@ -464,7 +464,7 @@ test/RestaurantTest.o: test/RestaurantTest.cpp.o
 
 # target to build an object file
 test/RestaurantTest.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o
 .PHONY : test/RestaurantTest.cpp.o
 
 test/RestaurantTest.i: test/RestaurantTest.cpp.i
@@ -472,7 +472,7 @@ test/RestaurantTest.i: test/RestaurantTest.cpp.i
 
 # target to preprocess a source file
 test/RestaurantTest.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.i
 .PHONY : test/RestaurantTest.cpp.i
 
 test/RestaurantTest.s: test/RestaurantTest.cpp.s
@@ -480,7 +480,7 @@ test/RestaurantTest.s: test/RestaurantTest.cpp.s
 
 # target to generate assembly for a file
 test/RestaurantTest.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.s
 .PHONY : test/RestaurantTest.cpp.s
 
 test/master.o: test/master.cpp.o
@@ -488,7 +488,7 @@ test/master.o: test/master.cpp.o
 
 # target to build an object file
 test/master.cpp.o:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.o
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.o
 .PHONY : test/master.cpp.o
 
 test/master.i: test/master.cpp.i
@@ -496,7 +496,7 @@ test/master.i: test/master.cpp.i
 
 # target to preprocess a source file
 test/master.cpp.i:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.i
 .PHONY : test/master.cpp.i
 
 test/master.s: test/master.cpp.s
@@ -504,7 +504,7 @@ test/master.s: test/master.cpp.s
 
 # target to generate assembly for a file
 test/master.cpp.s:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/LibraryTester.dir/build.make library/CMakeFiles/LibraryTester.dir/test/master.cpp.s
 .PHONY : test/master.cpp.s
 
 # Help Target
@@ -572,6 +572,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

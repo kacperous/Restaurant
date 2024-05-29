@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Pulpit/Restaurant/start
+# Install script for directory: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/student/Pulpit/Restaurant/start/cmake-build-debug/program/cmake_install.cmake")
-  include("/home/student/Pulpit/Restaurant/start/cmake-build-debug/library/cmake_install.cmake")
+  include("/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/program/cmake_install.cmake")
+  include("/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/Pulpit/Restaurant/start/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

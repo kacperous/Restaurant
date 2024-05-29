@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Pulpit/Restaurant/start
+CMAKE_SOURCE_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Pulpit/Restaurant/start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
 
 # Utility rule file for check.
 
@@ -81,10 +81,10 @@ library/CMakeFiles/check.dir/build: check
 .PHONY : library/CMakeFiles/check.dir/build
 
 library/CMakeFiles/check.dir/clean:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/check.dir/clean
 
 library/CMakeFiles/check.dir/depend:
-	cd /home/student/Pulpit/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Pulpit/Restaurant/start /home/student/Pulpit/Restaurant/start/library /home/student/Pulpit/Restaurant/start/cmake-build-debug /home/student/Pulpit/Restaurant/start/cmake-build-debug/library /home/student/Pulpit/Restaurant/start/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/check.dir/depend
 
