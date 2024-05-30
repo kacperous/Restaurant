@@ -37,6 +37,7 @@ set(SOURCE_FILES
         src/managers/ReservationManager.cpp
         src/managers/ClientManager.cpp
         include/managers/ClientManager.h
+        src/model/ClientType.cpp
 )
 
 add_library(Library ${SOURCE_FILES})

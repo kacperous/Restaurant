@@ -3,7 +3,7 @@
 #include <string>
 class Table{
 public:
-    std::string getInfo();
+    std::string getInfo() const;
     void setAvailability();
 
     int getTableId() const;

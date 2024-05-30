@@ -2,11 +2,8 @@
 #define RESTAURANT_DEFAULT_H
 #include "ClientType.h"
 
-class Default:public ClientType{
+class Default : public ClientType {
 public:
-    ~Default() override;
-
-
     double getDiscount() const override;
     std::string getTypeInfo() const override;
     bool vipTable() const override;

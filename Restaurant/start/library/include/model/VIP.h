@@ -5,7 +5,6 @@ class VIP:public ClientType{
 public:
     ~VIP() override;
 
-
     double getDiscount() const override;
     std::string getTypeInfo() const override;
     bool vipTable() const override;

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/model/Adress.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Client.cpp.o"
   "CMakeFiles/Library.dir/src/model/Client.cpp.o.d"
+  "CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
+  "CMakeFiles/Library.dir/src/model/ClientType.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Default.cpp.o"
   "CMakeFiles/Library.dir/src/model/Default.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Reservation.cpp.o"

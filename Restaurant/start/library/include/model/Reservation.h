@@ -7,7 +7,7 @@ class Reservation
 {
 public:
     Reservation(int reservationId, const tm &date, const ClientPtr &client, const TablePtr &table);
-
+    std::string getInfo() const;
     virtual ~Reservation();
 
     int getReservationId() const;

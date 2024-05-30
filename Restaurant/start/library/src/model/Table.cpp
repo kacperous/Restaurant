@@ -39,3 +39,7 @@ bool Table::GetisVipTable() const {
 void Table::setIsVipTable(bool IsVipTable) {
     Table::isVipTable = IsVipTable;
 }
+std::string Table::getInfo() const {
+    return "Table ID: " + std::to_string(tableID) +
+           ", Size: " + std::to_string(tableSize);
+}

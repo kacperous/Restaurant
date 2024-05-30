@@ -55,6 +55,12 @@ const ClientTypePtr &Client::getClientType() const {
 void Client::setClientType(const ClientTypePtr &newClientType) {
     Client::clientType = newClientType;
 }
-
+std::string Client::getInfo() const {
+    return "Client ID: " + std::to_string(personalID) +
+           ", Name: " + firstName + " " + lastName +
+           ", Phone: " + std::to_string(phoneNumber) +
+           ", Address: " + (address ? address->getInfo() : "None") +
+           ", Client Type: " + (clientType ? clientType->getInfo() : "None");
+}
 
 

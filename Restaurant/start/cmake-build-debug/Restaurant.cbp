@@ -273,6 +273,9 @@
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp">
 			<Option target="Library"/>
 		</Unit>

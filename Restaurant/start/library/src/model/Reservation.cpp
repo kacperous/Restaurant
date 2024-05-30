@@ -1,4 +1,7 @@
+#include <iomanip>
 #include "model/Reservation.h"
+#include "model/Client.h"
+#include "model/Table.h"
 
 Reservation::Reservation(int reservationId, const tm &date, const ClientPtr &client, const TablePtr &table)
         : reservationID(reservationId), date(date), client(client), table(table) {}
@@ -37,4 +40,12 @@ const TablePtr &Reservation::getTable() const {
 
 void Reservation::setTable(const TablePtr &Table) {
     Reservation::table = Table;
+}
+std::string Reservation::getInfo() const{
+    std::ostringstream oss;
+    oss << "ReservationId: " << reservationID
+        << ", Date: " << std::put_time(&date, "%Y-%m-%d %H:%M:%S")
+        << ", Client: " << (client ? client->getInfo() : "None")
+        << ", Table: " << (table ? table->getInfo() : "None");
+    return oss.str();
 }

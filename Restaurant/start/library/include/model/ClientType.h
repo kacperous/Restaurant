@@ -4,9 +4,11 @@
 
 class ClientType{
 public:
+    ClientType();
+
     virtual ~ClientType() {}
 
-
+    std::string getInfo() const;
     virtual double getDiscount() const =0;
     virtual std::string getTypeInfo() const =0;
     virtual bool vipTable() const =0;
