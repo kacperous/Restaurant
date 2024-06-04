@@ -303,8 +303,21 @@
 		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp">
+			<Option target="LibraryTester"/>
+		</Unit>
 		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp">
 			<Option target="Library"/>
+			<Option target="LibraryTester"/>
+		</Unit>
+		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp">
+			<Option target="LibraryTester"/>
 		</Unit>
 		<Unit filename="/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/master.cpp">
 			<Option target="LibraryTester"/>

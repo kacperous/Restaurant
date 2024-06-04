@@ -174,6 +174,11 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /usr/include/c++/12/ctime \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
@@ -192,10 +197,7 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/unordered_map.h \
  /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/array \
- /usr/include/c++/12/compare /usr/include/c++/12/bits/stl_algo.h \
- /usr/include/c++/12/bits/algorithmfwd.h \
- /usr/include/c++/12/bits/stl_heap.h \
- /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/compare \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h \
  /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \

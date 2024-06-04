@@ -86,19 +86,99 @@ library/CMakeFiles/LibraryTester.dir/test/master.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/master.cpp.s"
 	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/master.cpp -o CMakeFiles/LibraryTester.dir/test/master.cpp.s
 
+library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o: library/CMakeFiles/LibraryTester.dir/flags.make
+library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
+library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o: library/CMakeFiles/LibraryTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o -MF CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o.d -o CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
+
+library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.i"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp > CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.i
+
+library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.s"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp -o CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.s
+
+library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o: library/CMakeFiles/LibraryTester.dir/flags.make
+library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp
+library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o: library/CMakeFiles/LibraryTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o -MF CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o.d -o CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp
+
+library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.i"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp > CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.i
+
+library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.s"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp -o CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.s
+
+library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: library/CMakeFiles/LibraryTester.dir/flags.make
+library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp
+library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: library/CMakeFiles/LibraryTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o -MF CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o.d -o CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp
+
+library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.i"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp > CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.i
+
+library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.s"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp -o CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.s
+
+library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o: library/CMakeFiles/LibraryTester.dir/flags.make
+library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp
+library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o: library/CMakeFiles/LibraryTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o -MF CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o.d -o CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp
+
+library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.i"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp > CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.i
+
+library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.s"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp -o CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.s
+
+library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o: library/CMakeFiles/LibraryTester.dir/flags.make
+library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp
+library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o: library/CMakeFiles/LibraryTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o -MF CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o.d -o CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp
+
+library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibraryTester.dir/test/TableTest.cpp.i"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp > CMakeFiles/LibraryTester.dir/test/TableTest.cpp.i
+
+library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibraryTester.dir/test/TableTest.cpp.s"
+	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp -o CMakeFiles/LibraryTester.dir/test/TableTest.cpp.s
+
 # Object files for target LibraryTester
 LibraryTester_OBJECTS = \
-"CMakeFiles/LibraryTester.dir/test/master.cpp.o"
+"CMakeFiles/LibraryTester.dir/test/master.cpp.o" \
+"CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o" \
+"CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o" \
+"CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o" \
+"CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o" \
+"CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o"
 
 # External object files for target LibraryTester
 LibraryTester_EXTERNAL_OBJECTS =
 
 library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/master.cpp.o
+library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o
+library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o
+library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o
+library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o
+library/LibraryTester: library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o
 library/LibraryTester: library/CMakeFiles/LibraryTester.dir/build.make
 library/LibraryTester: library/libLibrary.a
 library/LibraryTester: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0
 library/LibraryTester: library/CMakeFiles/LibraryTester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LibraryTester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LibraryTester"
 	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibraryTester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,127 @@
+Start testing: Jun 04 13:18 CEST
+----------------------------------------------------------
+1/1 Testing: LibraryTest
+1/1 Test: LibraryTest
+Command: "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library/LibraryTester" "--report_level=detailed" "--log_level=all" "--color_output=yes"
+Directory: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library
+"LibraryTest" start time: Jun 04 13:18 CEST
+Output:
+----------------------------------------------------------
+Running 5 test cases...
+[1;34;49mEntering test module "Master Test Suite"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(14): Entering test suite "RESTAURANT_TEST"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(15): Entering test case "TEST_RESTAURANT"
+[0;39;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(25): [1;32;49minfo: check McDonald->getName() == "McDonald" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(26): [1;32;49minfo: check McDonald->getAddress() == address_restaurant has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(28): [1;32;49minfo: check actualTables.size() == 3 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(30): [1;32;49minfo: check actualTables.size() == 4 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(42): [1;32;49minfo: check actualReservations.size() == 0 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(47): [1;32;49minfo: check actualReservations.size() == 2 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(50): [1;32;49minfo: check actualReservations.size() == 3 has passed[0;39;49m
+[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(15): Leaving test case "TEST_RESTAURANT"; testing time: 547us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp(14): Leaving test suite "RESTAURANT_TEST"; testing time: 561us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(9): Entering test suite "ADDRESS_TEST"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(10): Entering test case "TEST_ADDRESS"
+[0;39;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(12): [1;32;49minfo: check address->getCity() == "Lodz" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(13): [1;32;49minfo: check address->getStreet() == "Piotrkowska" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(14): [1;32;49minfo: check address->getNumber() == "1" has passed[0;39;49m
+[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(10): Leaving test case "TEST_ADDRESS"; testing time: 1384us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp(9): Leaving test suite "ADDRESS_TEST"; testing time: 1398us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(12): Entering test suite "CLIENT_TEST"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(13): Entering test case "TEST_CLIENT"
+[0;39;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(20): [1;32;49minfo: check client1->getPersonalId() ==1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(21): [1;32;49minfo: check client1->getFirstName() == "Stefan" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(22): [1;32;49minfo: check client1->getLastName() == "Kowalski" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(23): [1;32;49minfo: check client1->getPhoneNumber() == 675345532 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(24): [1;32;49minfo: check client1->getAddress() == address1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(25): [1;32;49minfo: check client1->getClientType() == regularClientType has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(27): [1;32;49minfo: check client2->getPersonalId() ==2 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(28): [1;32;49minfo: check client2->getFirstName() == "Marian" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(29): [1;32;49minfo: check client2->getLastName() == "Stefanski" has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(30): [1;32;49minfo: check client2->getPhoneNumber() == 321567428 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(31): [1;32;49minfo: check client2->getAddress() == address2 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(32): [1;32;49minfo: check client2->getClientType() == vipClientType has passed[0;39;49m
+[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(13): Leaving test case "TEST_CLIENT"; testing time: 487us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp(12): Leaving test suite "CLIENT_TEST"; testing time: 501us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(14): Entering test suite "RESERVATION_TEST"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(23): Entering test case "TEST_RESERVATION"
+[0;39;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(36): [1;32;49minfo: check reservation1->getReservationId() == 1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(37): [1;32;49minfo: check compareDates(reservation1->getDate(), date) has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(38): [1;32;49minfo: check reservation1->getClient() == client1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(39): [1;32;49minfo: check reservation1->getTable() == table1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(48): [1;32;49minfo: check reservation2->getReservationId() == 1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(49): [1;32;49minfo: check compareDates(reservation2->getDate(), date2) has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(50): [1;32;49minfo: check reservation2->getClient() == client1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(51): [1;32;49minfo: check reservation2->getTable() == table1 has passed[0;39;49m
+[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(23): Leaving test case "TEST_RESERVATION"; testing time: 1309us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp(14): Leaving test suite "RESERVATION_TEST"; testing time: 1319us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(10): Entering test suite "TABLE_TEST"
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(11): Entering test case "TEST_TABLE"
+[0;39;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(16): [1;32;49minfo: check table->getTableId() == 1 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(17): [1;32;49minfo: check table->getTableSize() == 5 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(18): [1;32;49minfo: check table->getIsReserved() == false has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(19): [1;32;49minfo: check table->getIsVipTable() == false has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(20): [1;32;49minfo: check table2->getTableId() == 2 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(21): [1;32;49minfo: check table2->getTableSize() == 3 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(22): [1;32;49minfo: check table2->getIsReserved() == false has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(23): [1;32;49minfo: check table2->getIsVipTable() == true has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(24): [1;32;49minfo: check table3->getTableId() == 3 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(25): [1;32;49minfo: check table3->getTableSize() == 7 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(26): [1;32;49minfo: check table3->getIsReserved() == true has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(27): [1;32;49minfo: check table3->getIsVipTable() == false has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(28): [1;32;49minfo: check table4->getTableId() == 4 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(29): [1;32;49minfo: check table4->getTableSize() == 2 has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(30): [1;32;49minfo: check table4->getIsReserved() == true has passed[0;39;49m
+/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(31): [1;32;49minfo: check table4->getIsVipTable() == true has passed[0;39;49m
+[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(11): Leaving test case "TEST_TABLE"; testing time: 173us
+[0;39;49m[1;34;49m/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp(10): Leaving test suite "TABLE_TEST"; testing time: 179us
+[0;39;49m[1;34;49mLeaving test module "Master Test Suite"; testing time: 4049us
+[0;39;49m
+Test module "Master Test Suite" has passed with:
+  5 test cases out of 5 passed
+  46 assertions out of 46 passed
+
+  Test suite "RESTAURANT_TEST" has passed with:
+    1 test case out of 1 passed
+    7 assertions out of 7 passed
+
+    Test case "RESTAURANT_TEST/TEST_RESTAURANT" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "ADDRESS_TEST" has passed with:
+    1 test case out of 1 passed
+    3 assertions out of 3 passed
+
+    Test case "ADDRESS_TEST/TEST_ADDRESS" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "CLIENT_TEST" has passed with:
+    1 test case out of 1 passed
+    12 assertions out of 12 passed
+
+    Test case "CLIENT_TEST/TEST_CLIENT" has passed with:
+      12 assertions out of 12 passed
+
+  Test suite "RESERVATION_TEST" has passed with:
+    1 test case out of 1 passed
+    8 assertions out of 8 passed
+
+    Test case "RESERVATION_TEST/TEST_RESERVATION" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "TABLE_TEST" has passed with:
+    1 test case out of 1 passed
+    16 assertions out of 16 passed
+
+    Test case "TABLE_TEST/TEST_TABLE" has passed with:
+      16 assertions out of 16 passed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LibraryTest" end time: Jun 04 13:18 CEST
+"LibraryTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 04 13:18 CEST

@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/AddressTest.cpp" "library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o.d"
+  "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp" "library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o.d"
+  "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ReservationTest.cpp" "library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/ReservationTest.cpp.o.d"
+  "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp" "library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/RestaurantTest.cpp.o.d"
+  "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/TableTest.cpp" "library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/TableTest.cpp.o.d"
   "/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/master.cpp" "library/CMakeFiles/LibraryTester.dir/test/master.cpp.o" "gcc" "library/CMakeFiles/LibraryTester.dir/test/master.cpp.o.d"
   )
 

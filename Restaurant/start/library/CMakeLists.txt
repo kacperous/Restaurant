@@ -53,6 +53,11 @@ include_directories(
 
 set(SOURCE_TEST_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/test/master.cpp
+        test/RestaurantTest.cpp
+        test/AddressTest.cpp
+        test/ClientTest.cpp
+        test/ReservationTest.cpp
+        test/TableTest.cpp
 )
 add_executable(LibraryTester ${SOURCE_TEST_FILES})
 
