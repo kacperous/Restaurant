@@ -24,7 +24,7 @@ void Table::setTableSize(int TableSize) {
     Table::tableSize = TableSize;
 }
 
-bool Table::GetisReserved() const {
+bool Table::getIsReserved() const {
     return isReserved;
 }
 
@@ -32,7 +32,7 @@ void Table::setIsReserved(bool IsReserved) {
     Table::isReserved = IsReserved;
 }
 
-bool Table::GetisVipTable() const {
+bool Table::getIsVipTable() const {
     return isVipTable;
 }
 

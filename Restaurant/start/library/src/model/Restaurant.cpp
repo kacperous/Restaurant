@@ -45,3 +45,50 @@ void Restaurant::showReservations() const {
 void Restaurant::removeReservation(ReservationPtr reservation) {
     reservations.erase(std::remove(reservations.begin(), reservations.end(), reservation), reservations.end());
 }
+
+Restaurant::~Restaurant() {
+
+}
+
+void Restaurant::setName(const std::string &newName) {
+    Restaurant::name = newName;
+}
+
+void Restaurant::setAddress(const AddressPtr &newAddress) {
+    Restaurant::address = newAddress;
+}
+
+const std::vector<TablePtr> &Restaurant::getTables() const {
+    return tables;
+}
+
+void Restaurant::setTables(const std::vector<TablePtr> &newTables) {
+    Restaurant::tables = newTables;
+}
+
+const std::vector<ReservationPtr> &Restaurant::getReservations() const {
+    return reservations;
+}
+
+void Restaurant::setReservations(const std::vector<ReservationPtr> &newReservations) {
+    Restaurant::reservations = newReservations;
+}
+
+TablePtr Restaurant::findTableBySize(int size) {
+    for(const auto& Table: tables){
+        if(Table->getTableSize() >= size){
+            return Table;
+        }
+    }
+    throw std::runtime_error("No table available for your size, sorry");
+}
+
+void Restaurant::modifyReservation(int reservationId,tm date,ClientPtr client,TablePtr table){
+    for(const auto& reservation : reservations){
+        if(reservation->getReservationId() == reservationId){
+            reservation->setDate(date);
+            reservation->setClient(client);
+            reservation->setTable(table);
+        }
+    }
+}

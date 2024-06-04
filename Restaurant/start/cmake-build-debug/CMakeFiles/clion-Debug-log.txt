@@ -1,4 +1,17 @@
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -G "CodeBlocks - Unix Makefiles" -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start -B /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -G "CodeBlocks - Unix Makefiles" -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start -B /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.60.0") found components: unit_test_framework 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
+-- Build files have been written to: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug

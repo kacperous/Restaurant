@@ -1,5 +1,5 @@
 library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iomanip \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -157,9 +157,9 @@ library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: \
  /usr/include/c++/12/bits/ostream.tcc \
  /usr/include/c++/12/bits/istream.tcc \
  /usr/include/c++/12/bits/sstream.tcc \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /usr/include/c++/12/iostream \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
@@ -177,8 +177,8 @@ library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h

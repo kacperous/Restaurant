@@ -1,7 +1,7 @@
 library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/../../include/repositories/ClientRepositories.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/../../include/repositories/ClientRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -98,7 +98,7 @@ library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/12/bits/std_abs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \
@@ -134,10 +134,10 @@ library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -171,6 +171,6 @@ library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/algorithm \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h

@@ -1,7 +1,7 @@
 library/CMakeFiles/Library.dir/src/model/Table.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
  /usr/include/c++/12/string \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

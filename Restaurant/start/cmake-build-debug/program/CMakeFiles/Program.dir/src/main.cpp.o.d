@@ -1,5 +1,5 @@
 program/CMakeFiles/Program.dir/src/main.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/program/src/main.cpp \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/program/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -168,23 +168,23 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /usr/include/c++/12/ctime \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
  /usr/include/c++/12/functional /usr/include/c++/12/bits/std_function.h \
  /usr/include/c++/12/unordered_map /usr/include/c++/12/bits/hashtable.h \
  /usr/include/c++/12/bits/hashtable_policy.h \
@@ -196,7 +196,7 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h

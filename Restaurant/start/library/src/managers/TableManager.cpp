@@ -6,7 +6,7 @@ bool TableManager::checkTable(Table* table) const {
 
 int TableManager::countChildren() const {
     auto children = repository.findBy([](Table* table) {
-        return table->GetisVipTable();
+        return table->getIsVipTable();
     });
     return children.size();
 }

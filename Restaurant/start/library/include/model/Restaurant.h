@@ -5,7 +5,7 @@
 #include "Adress.h"
 #include "Table.h"
 #include "Reservation.h"
-
+#include <algorithm>
 
 class Restaurant {
 public:
@@ -22,6 +22,17 @@ public:
     void addReservation(ReservationPtr reservation);
     void showReservations() const;
     void removeReservation(ReservationPtr reservation);
+
+    virtual ~Restaurant();
+    void setName(const std::string &newName);
+    void setAddress(const AddressPtr &newAddress);
+    const std::vector<TablePtr> &getTables() const;
+    void setTables(const std::vector<TablePtr> &newTables);
+    const std::vector<ReservationPtr> &getReservations() const;
+    void setReservations(const std::vector<ReservationPtr> &newReservations);
+
+    TablePtr findTableBySize(int size);
+    void modifyReservation(int reservationId,tm date,ClientPtr client, TablePtr table);
 
 private:
     std::string name;

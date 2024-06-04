@@ -4,7 +4,6 @@
 class Table{
 public:
     std::string getInfo() const;
-    void setAvailability();
 
     int getTableId() const;
 
@@ -14,11 +13,11 @@ public:
 
     void setTableSize(int tableSize);
 
-    bool GetisReserved() const;
+    bool getIsReserved() const;
 
     void setIsReserved(bool isReserved);
 
-    bool GetisVipTable() const;
+    bool getIsVipTable() const;
 
     void setIsVipTable(bool isVipTable);
 
