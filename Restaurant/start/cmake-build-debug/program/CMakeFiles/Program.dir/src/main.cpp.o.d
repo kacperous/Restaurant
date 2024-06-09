@@ -167,12 +167,11 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/vector \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/ctime \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
- /usr/include/c++/12/ctime \
  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
