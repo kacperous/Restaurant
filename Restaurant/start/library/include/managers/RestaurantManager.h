@@ -1,8 +1,19 @@
-//
-// Created by student on 09.06.24.
-//
+#ifndef RESTAURANTMANAGER_H
+#define RESTAURANTMANAGER_H
 
-#ifndef RESTAURANT_RESTAURANTMANAGER_H
-#define RESTAURANT_RESTAURANTMANAGER_H
+#include <vector>
+#include "model/Restaurant.h"
+#include "repositories/RestaurantRepositories.h"
 
-#endif //RESTAURANT_RESTAURANTMANAGER_H
+class RestaurantManager {
+private:
+    RestaurantRepository restaurantRepository;
+public:
+    std::vector<Restaurant*> getRestaurants();
+    std::vector<Restaurant*> findByName(const std::string& name);
+    void addRestaurant(Restaurant* restaurant);
+    void removeRestaurant(Restaurant* restaurant);
+    int countRestaurants();
+};
+
+#endif // RESTAURANTMANAGER_H
