@@ -1,4 +1,4 @@
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -G "CodeBlocks - Unix Makefiles" -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start -B /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -G "CodeBlocks - Unix Makefiles" -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start -B /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug
+-- Build files have been written to: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug

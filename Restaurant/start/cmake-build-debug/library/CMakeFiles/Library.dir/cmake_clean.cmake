@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o.d"
   "CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
   "CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d"
+  "CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o"
+  "CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o.d"
   "CMakeFiles/Library.dir/src/managers/TableManager.cpp.o"
   "CMakeFiles/Library.dir/src/managers/TableManager.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Adress.cpp.o"

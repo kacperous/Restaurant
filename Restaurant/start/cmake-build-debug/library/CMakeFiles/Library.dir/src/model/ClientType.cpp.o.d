@@ -1,8 +1,8 @@
 library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
  /usr/include/c++/12/string \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -117,9 +117,9 @@ library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
