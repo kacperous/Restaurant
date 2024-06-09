@@ -1,5 +1,5 @@
 library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/test/ClientTest.cpp \
  /usr/include/stdc-predef.h /usr/include/boost/test/unit_test.hpp \
  /usr/include/boost/test/test_tools.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
@@ -590,12 +590,12 @@ library/CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o: \
  /usr/include/boost/utility/value_init.hpp /usr/include/boost/swap.hpp \
  /usr/include/boost/core/swap.hpp \
  /usr/include/boost/test/tree/global_fixture.hpp \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Default.h
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Default.h

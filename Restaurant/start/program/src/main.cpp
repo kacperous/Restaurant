@@ -24,7 +24,9 @@ void showMenu() {
     cout << "5. Show Reservations" << endl;
     cout << "6. Show Client Reservations" << endl;
     cout << "7. Check Client" << endl;
-    cout << "8. Exit" << endl;
+    cout << "8. Remove Table" << endl;
+    cout << "9. Remove Client" << endl;
+    cout << "10. Exit" << endl;
 }
 
 int main() {
@@ -56,7 +58,7 @@ int main() {
         if (cin.fail()) {
             cin.clear(); // clear the fail state
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
-            cout << "Invalid input, please enter a number between 1 and 8." << endl;
+            cout << "Invalid input, please enter a number between 1 and 10." << endl;
             continue;
         }
 
@@ -212,6 +214,51 @@ int main() {
                 break;
             }
             case 8: {
+                // Remove Table
+                int tableId;
+                cout << "Enter Table ID to remove: ";
+                cin >> tableId;
+
+                TablePtr table = nullptr;
+                for (auto& t : restaurant.getTables()) {
+                    if (t->getTableId() == tableId) {
+                        table = t;
+                        break;
+                    }
+                }
+                if (!table) {
+                    cout << "Table not found." << endl;
+                    break;
+                }
+
+                restaurant.removeTable(table);
+                cout << "Table removed successfully." << endl;
+                break;
+            }
+            case 9: {
+                // Remove Client
+                int clientId;
+                cout << "Enter Client ID to remove: ";
+                cin >> clientId;
+
+                ClientPtr client = nullptr;
+                for (auto& c : clients) {
+                    if (c->getPersonalId() == clientId) {
+                        client = c;
+                        break;
+                    }
+                }
+                if (!client) {
+                    cout << "Client not found." << endl;
+                    break;
+                }
+
+                clientRepository.removeClient(client);
+                clients.erase(remove(clients.begin(), clients.end(), client), clients.end());
+                cout << "Client removed successfully." << endl;
+                break;
+            }
+            case 10: {
                 // Exit
                 cout << "Exiting..." << endl;
                 break;
@@ -223,7 +270,7 @@ int main() {
                 break;
             }
         }
-    } while (choice != 8);
+    } while (choice != 10);
 
     return 0;
 }
