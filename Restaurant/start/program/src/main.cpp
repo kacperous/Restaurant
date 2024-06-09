@@ -85,7 +85,7 @@ int main() {
                 break;
             }
             case 2: {
-                // Add Table
+                // Create Table
                 int id, size;
                 bool isReserved, isVIP;
                 cout << "Enter Table ID: ";
