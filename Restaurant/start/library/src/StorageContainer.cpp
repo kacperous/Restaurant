@@ -12,11 +12,11 @@ const ReservationRepository &StorageContainer::getReservationRepository() const 
 const TableRepository &StorageContainer::getTableRepository() const {
     return tableRepository;
 }
-/*
+
 const RestaurantRepository &StorageContainer::getRestaurantRepository() const {
     return restaurantRepository;
 }
-*/
+
 
 void StorageContainer::initializeTestData() {
     AddressPtr address1= std::make_shared<Address>("Lodz","Jana Pawla","15");

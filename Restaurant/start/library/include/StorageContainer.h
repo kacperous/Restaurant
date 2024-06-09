@@ -12,16 +12,18 @@ class StorageContainer{
 private:
     ClientRepository clientRepository;
     ReservationRepository reservationRepository;
-    //RestaurantRepository restaurantRepository; - odkomentowac po dodamiu RestaurantRepo
+    RestaurantRepository restaurantRepository;
     TableRepository tableRepository;
 public:
     StorageContainer(){
         initializeTestData();
     }
+
+
     const ClientRepository &getClientRepository() const;
     const ReservationRepository &getReservationRepository() const;
     const TableRepository &getTableRepository() const;
-    //const RestaurantRepository &getRestaurantRepository() const;
+    const RestaurantRepository &getRestaurantRepository() const;
 private:
     void initializeTestData();
 };

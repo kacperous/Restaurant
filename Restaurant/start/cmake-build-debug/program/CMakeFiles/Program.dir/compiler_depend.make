@@ -246,8 +246,25 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/Pulpit/project/most
   /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
   /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
   /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
-  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/StorageContainer.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ReservationRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h \
+  /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h
 
+
+/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h:
+
+/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h:
 
 /usr/include/c++/12/compare:
 
@@ -505,6 +522,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/Pulpit/project/most
 
 /usr/include/c++/12/bits/stringfwd.h:
 
+/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/StorageContainer.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -620,6 +639,8 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: /home/student/Pulpit/project/most
 /usr/include/c++/12/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 

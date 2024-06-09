@@ -13,6 +13,9 @@
 #include "model/VIP.h"
 #include "managers/ReservationManager.h"
 #include "managers/ClientManager.h"
+#include "StorageContainer.h"
+#include "managers/TableManager.h"
+#include "repositories/TableRepositories.h"
 
 using namespace std;
 
@@ -33,6 +36,9 @@ int main() {
     // Create Address
     AddressPtr address = std::make_shared<Address>("City", "Main St", "123");
 
+
+
+
     // Create Client Types
     ClientTypePtr regularClientType = std::make_shared<Default>();
     ClientTypePtr vipClientType = std::make_shared<VIP>();
@@ -40,11 +46,15 @@ int main() {
     // Create Restaurant
     Restaurant restaurant("Good Eats", address);
 
+    StorageContainer storageContainer;
     // Client and Reservation Managers
     ClientManager clientManager;
-    ClientRepository clientRepository;
+    ClientRepository clientRepository = storageContainer.getClientRepository();
+    TableManager tableManager;
+    TableRepository tableRepository = storageContainer.getTableRepository();
     ReservationManager reservationManager;
-    ReservationRepository reservationRepository;
+    ReservationRepository reservationRepository=storageContainer.getReservationRepository();
+
 
     vector<ClientPtr> clients;
     vector<ReservationPtr> reservations;
