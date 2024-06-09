@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+#include <limits>
 #include <ctime>
 #include "model/Restaurant.h"
 #include "model/Reservation.h"
@@ -51,6 +52,13 @@ int main() {
         showMenu();
         cout << "Enter your choice: ";
         cin >> choice;
+
+        if (cin.fail()) {
+            cin.clear(); // clear the fail state
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
+            cout << "Invalid input, please enter a number between 1 and 8." << endl;
+            continue;
+        }
 
         switch (choice) {
             case 1: {
@@ -210,6 +218,8 @@ int main() {
             }
             default: {
                 cout << "Invalid choice. Please try again." << endl;
+                cin.clear(); // Clear the error flag
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
                 break;
             }
         }
