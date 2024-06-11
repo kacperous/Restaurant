@@ -1,8 +1,8 @@
 library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -99,7 +99,7 @@ library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/12/bits/std_abs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \
@@ -135,10 +135,10 @@ library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -172,8 +172,8 @@ library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
  /usr/include/c++/12/ios /usr/include/c++/12/bits/ios_base.h \
  /usr/include/c++/12/bits/locale_classes.h \

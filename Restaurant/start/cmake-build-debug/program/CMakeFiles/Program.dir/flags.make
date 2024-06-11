@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/../library/include/model -I/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/program/include -I/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include
+CXX_INCLUDES = -I/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/../library/include/model -I/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/program/include -I/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include
 
 CXX_FLAGS =  -Wall -Wextra -Werror -g3 -gdwarf-4 -Wall -Wpedantic -Wextra -fdiagnostics-color=always -std=gnu++17
 
