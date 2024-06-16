@@ -1,8 +1,8 @@
 library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -99,7 +99,7 @@ library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/12/bits/std_abs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
  /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
  /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
  /usr/include/c++/12/bits/stringfwd.h /usr/include/c++/12/bits/postypes.h \
@@ -171,7 +171,7 @@ library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/ctime \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -186,5 +186,5 @@ library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h

@@ -1,8 +1,8 @@
 library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/TableRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/TableRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -99,7 +99,7 @@ library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/12/bits/std_abs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/../model/Table.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/../model/Table.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \

@@ -40,6 +40,8 @@ set(SOURCE_FILES
         src/model/ClientType.cpp
         include/managers/RestaurantManager.h
         src/managers/RestaurantManager.cpp
+        include/model/RestaurantApp.h
+        src/model/RestaurantApp.cpp
 )
 
 add_library(Library ${SOURCE_FILES})

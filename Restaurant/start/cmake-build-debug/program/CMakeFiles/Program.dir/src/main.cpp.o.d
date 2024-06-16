@@ -1,6 +1,8 @@
 program/CMakeFiles/Program.dir/src/main.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/program/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/program/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/RestaurantApp.h \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,17 +13,60 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
- /usr/include/c++/12/pstl/pstl_config.h /usr/include/c++/12/ostream \
- /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
- /usr/include/c++/12/bits/stringfwd.h \
- /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
- /usr/include/c++/12/cwchar /usr/include/wchar.h \
+ /usr/include/c++/12/pstl/pstl_config.h \
+ /usr/include/c++/12/bits/functexcept.h \
+ /usr/include/c++/12/bits/exception_defines.h \
+ /usr/include/c++/12/bits/cpp_type_traits.h \
+ /usr/include/c++/12/ext/type_traits.h \
+ /usr/include/c++/12/ext/numeric_traits.h \
+ /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/type_traits \
+ /usr/include/c++/12/bits/move.h /usr/include/c++/12/bits/utility.h \
+ /usr/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/12/bits/concept_check.h \
+ /usr/include/c++/12/debug/assertions.h \
+ /usr/include/c++/12/bits/stl_iterator.h \
+ /usr/include/c++/12/bits/ptr_traits.h /usr/include/c++/12/debug/debug.h \
+ /usr/include/c++/12/bits/predefined_ops.h \
+ /usr/include/c++/12/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+ /usr/include/c++/12/bits/new_allocator.h /usr/include/c++/12/new \
+ /usr/include/c++/12/bits/exception.h \
+ /usr/include/c++/12/bits/memoryfwd.h \
+ /usr/include/c++/12/bits/stl_construct.h \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/ext/alloc_traits.h \
+ /usr/include/c++/12/bits/alloc_traits.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/initializer_list \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/functional_hash.h \
+ /usr/include/c++/12/bits/hash_bytes.h /usr/include/c++/12/bits/refwrap.h \
+ /usr/include/c++/12/bits/invoke.h \
+ /usr/include/c++/12/bits/stl_function.h \
+ /usr/include/c++/12/backward/binders.h \
+ /usr/include/c++/12/bits/range_access.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/unique_ptr.h /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/shared_ptr.h /usr/include/c++/12/iosfwd \
+ /usr/include/c++/12/bits/stringfwd.h /usr/include/c++/12/bits/postypes.h \
+ /usr/include/c++/12/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -29,33 +74,17 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
- /usr/include/c++/12/bits/exception_ptr.h \
- /usr/include/c++/12/bits/exception_defines.h \
- /usr/include/c++/12/bits/cxxabi_init_exception.h \
- /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/hash_bytes.h \
- /usr/include/c++/12/new /usr/include/c++/12/bits/move.h \
- /usr/include/c++/12/type_traits \
- /usr/include/c++/12/bits/nested_exception.h \
- /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/12/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
- /usr/include/c++/12/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
- /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/c++/12/bits/ios_base.h /usr/include/c++/12/ext/atomicity.h \
+ /usr/include/c++/12/bits/shared_ptr_base.h /usr/include/c++/12/typeinfo \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
@@ -79,36 +108,27 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/12/ext/concurrence.h /usr/include/c++/12/exception \
+ /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12/bits/nested_exception.h \
+ /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/12/backward/auto_ptr.h \
+ /usr/include/c++/12/pstl/glue_memory_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/fstream \
+ /usr/include/c++/12/istream /usr/include/c++/12/ios \
+ /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
+ /usr/include/c++/12/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+ /usr/include/c++/12/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
+ /usr/include/ctype.h /usr/include/c++/12/bits/ios_base.h \
  /usr/include/c++/12/bits/locale_classes.h /usr/include/c++/12/string \
- /usr/include/c++/12/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
- /usr/include/c++/12/bits/new_allocator.h \
- /usr/include/c++/12/bits/functexcept.h \
- /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/bits/ostream_insert.h \
  /usr/include/c++/12/bits/cxxabi_forced.h \
- /usr/include/c++/12/bits/stl_iterator_base_types.h \
- /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/12/bits/concept_check.h \
- /usr/include/c++/12/debug/assertions.h \
- /usr/include/c++/12/bits/stl_iterator.h \
- /usr/include/c++/12/ext/type_traits.h \
- /usr/include/c++/12/bits/ptr_traits.h \
- /usr/include/c++/12/bits/stl_function.h \
- /usr/include/c++/12/backward/binders.h \
- /usr/include/c++/12/ext/numeric_traits.h \
- /usr/include/c++/12/bits/stl_algobase.h \
- /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/bits/utility.h \
- /usr/include/c++/12/debug/debug.h \
- /usr/include/c++/12/bits/predefined_ops.h \
- /usr/include/c++/12/bits/refwrap.h /usr/include/c++/12/bits/invoke.h \
- /usr/include/c++/12/bits/range_access.h \
- /usr/include/c++/12/initializer_list \
- /usr/include/c++/12/bits/basic_string.h \
- /usr/include/c++/12/ext/alloc_traits.h \
- /usr/include/c++/12/bits/alloc_traits.h \
- /usr/include/c++/12/bits/stl_construct.h /usr/include/c++/12/string_view \
- /usr/include/c++/12/bits/functional_hash.h \
+ /usr/include/c++/12/bits/basic_string.h /usr/include/c++/12/string_view \
  /usr/include/c++/12/bits/string_view.tcc \
  /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -145,55 +165,34 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
  /usr/include/c++/12/bits/locale_facets.tcc \
- /usr/include/c++/12/bits/basic_ios.tcc \
- /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_uninitialized.h \
- /usr/include/c++/12/bits/stl_tempbuf.h \
- /usr/include/c++/12/bits/stl_raw_storage_iter.h \
- /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
- /usr/include/c++/12/bits/uses_allocator.h \
- /usr/include/c++/12/bits/unique_ptr.h /usr/include/c++/12/tuple \
- /usr/include/c++/12/bits/shared_ptr.h \
- /usr/include/c++/12/bits/shared_ptr_base.h \
- /usr/include/c++/12/bits/allocated_ptr.h \
- /usr/include/c++/12/ext/aligned_buffer.h \
- /usr/include/c++/12/ext/concurrence.h \
- /usr/include/c++/12/bits/shared_ptr_atomic.h \
- /usr/include/c++/12/bits/atomic_base.h \
- /usr/include/c++/12/bits/atomic_lockfree_defines.h \
- /usr/include/c++/12/backward/auto_ptr.h \
- /usr/include/c++/12/pstl/glue_memory_defs.h \
- /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/vector \
- /usr/include/c++/12/bits/stl_vector.h \
- /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/fstream \
- /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/bits/basic_ios.tcc /usr/include/c++/12/ostream \
+ /usr/include/c++/12/bits/ostream.tcc \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/limits \
- /usr/include/c++/12/ctime \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/ctime \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /usr/include/c++/12/iostream \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Reservation.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Client.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Table.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/ClientType.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ReservationManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/ReservationRepositories.h \
  /usr/include/c++/12/functional /usr/include/c++/12/bits/std_function.h \
  /usr/include/c++/12/unordered_map /usr/include/c++/12/bits/hashtable.h \
  /usr/include/c++/12/bits/hashtable_policy.h \
@@ -202,20 +201,20 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/unordered_map.h \
  /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/array \
  /usr/include/c++/12/compare \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/StorageContainer.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/ReservationRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Restaurant.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Table.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/TableRepositories.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/ClientManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/StorageContainer.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ClientRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/ReservationRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Restaurant.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Table.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Restaurant.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/VIP.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/model/Default.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/TableManager.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/managers/../repositories/TableRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/TableRepositories.h

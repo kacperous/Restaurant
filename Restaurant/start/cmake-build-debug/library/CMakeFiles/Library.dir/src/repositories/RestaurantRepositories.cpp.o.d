@@ -1,7 +1,7 @@
 library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp \
  /usr/include/stdc-predef.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/RestaurantRepositories.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -47,7 +47,7 @@ library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Restaurant.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Restaurant.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \
@@ -119,9 +119,9 @@ library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Adress.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Table.h \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Reservation.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Adress.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Table.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/Reservation.h \
  /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
  /usr/include/c++/12/ios /usr/include/c++/12/exception \
  /usr/include/c++/12/bits/exception_ptr.h \
@@ -159,7 +159,7 @@ library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/ctime \
- /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/typedefs.h \
+ /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/include/repositories/../model/typedefs.h \
  /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \

@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start
+CMAKE_SOURCE_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include library/CMakeFiles/Library.dir/depend.make
@@ -73,256 +73,270 @@ include library/CMakeFiles/Library.dir/progress.make
 include library/CMakeFiles/Library.dir/flags.make
 
 library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp
+library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp
 library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o -MF CMakeFiles/Library.dir/src/model/Restaurant.cpp.o.d -o CMakeFiles/Library.dir/src/model/Restaurant.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.o -MF CMakeFiles/Library.dir/src/model/Restaurant.cpp.o.d -o CMakeFiles/Library.dir/src/model/Restaurant.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp
 
 library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Restaurant.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp > CMakeFiles/Library.dir/src/model/Restaurant.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp > CMakeFiles/Library.dir/src/model/Restaurant.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Restaurant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Restaurant.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp -o CMakeFiles/Library.dir/src/model/Restaurant.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Restaurant.cpp -o CMakeFiles/Library.dir/src/model/Restaurant.cpp.s
 
 library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
+library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
 library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o -MF CMakeFiles/Library.dir/test/RestaurantTest.cpp.o.d -o CMakeFiles/Library.dir/test/RestaurantTest.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.o -MF CMakeFiles/Library.dir/test/RestaurantTest.cpp.o.d -o CMakeFiles/Library.dir/test/RestaurantTest.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp
 
 library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/test/RestaurantTest.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp > CMakeFiles/Library.dir/test/RestaurantTest.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp > CMakeFiles/Library.dir/test/RestaurantTest.cpp.i
 
 library/CMakeFiles/Library.dir/test/RestaurantTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/test/RestaurantTest.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp -o CMakeFiles/Library.dir/test/RestaurantTest.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/test/RestaurantTest.cpp -o CMakeFiles/Library.dir/test/RestaurantTest.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/Adress.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Adress.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp
+library/CMakeFiles/Library.dir/src/model/Adress.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp
 library/CMakeFiles/Library.dir/src/model/Adress.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/Library.dir/src/model/Adress.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Adress.cpp.o -MF CMakeFiles/Library.dir/src/model/Adress.cpp.o.d -o CMakeFiles/Library.dir/src/model/Adress.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/Library.dir/src/model/Adress.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Adress.cpp.o -MF CMakeFiles/Library.dir/src/model/Adress.cpp.o.d -o CMakeFiles/Library.dir/src/model/Adress.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp
 
 library/CMakeFiles/Library.dir/src/model/Adress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Adress.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp > CMakeFiles/Library.dir/src/model/Adress.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp > CMakeFiles/Library.dir/src/model/Adress.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Adress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Adress.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp -o CMakeFiles/Library.dir/src/model/Adress.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Adress.cpp -o CMakeFiles/Library.dir/src/model/Adress.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/Table.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Table.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp
+library/CMakeFiles/Library.dir/src/model/Table.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp
 library/CMakeFiles/Library.dir/src/model/Table.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Library.dir/src/model/Table.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Table.cpp.o -MF CMakeFiles/Library.dir/src/model/Table.cpp.o.d -o CMakeFiles/Library.dir/src/model/Table.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Library.dir/src/model/Table.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Table.cpp.o -MF CMakeFiles/Library.dir/src/model/Table.cpp.o.d -o CMakeFiles/Library.dir/src/model/Table.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp
 
 library/CMakeFiles/Library.dir/src/model/Table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Table.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp > CMakeFiles/Library.dir/src/model/Table.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp > CMakeFiles/Library.dir/src/model/Table.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Table.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp -o CMakeFiles/Library.dir/src/model/Table.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Table.cpp -o CMakeFiles/Library.dir/src/model/Table.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp
+library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp
 library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o -MF CMakeFiles/Library.dir/src/model/Reservation.cpp.o.d -o CMakeFiles/Library.dir/src/model/Reservation.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Reservation.cpp.o -MF CMakeFiles/Library.dir/src/model/Reservation.cpp.o.d -o CMakeFiles/Library.dir/src/model/Reservation.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp
 
 library/CMakeFiles/Library.dir/src/model/Reservation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Reservation.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp > CMakeFiles/Library.dir/src/model/Reservation.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp > CMakeFiles/Library.dir/src/model/Reservation.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Reservation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Reservation.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp -o CMakeFiles/Library.dir/src/model/Reservation.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Reservation.cpp -o CMakeFiles/Library.dir/src/model/Reservation.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/Client.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Client.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp
+library/CMakeFiles/Library.dir/src/model/Client.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp
 library/CMakeFiles/Library.dir/src/model/Client.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Library.dir/src/model/Client.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Client.cpp.o -MF CMakeFiles/Library.dir/src/model/Client.cpp.o.d -o CMakeFiles/Library.dir/src/model/Client.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Library.dir/src/model/Client.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Client.cpp.o -MF CMakeFiles/Library.dir/src/model/Client.cpp.o.d -o CMakeFiles/Library.dir/src/model/Client.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp
 
 library/CMakeFiles/Library.dir/src/model/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Client.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp > CMakeFiles/Library.dir/src/model/Client.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp > CMakeFiles/Library.dir/src/model/Client.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Client.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp -o CMakeFiles/Library.dir/src/model/Client.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Client.cpp -o CMakeFiles/Library.dir/src/model/Client.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/Default.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/Default.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp
+library/CMakeFiles/Library.dir/src/model/Default.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp
 library/CMakeFiles/Library.dir/src/model/Default.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object library/CMakeFiles/Library.dir/src/model/Default.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Default.cpp.o -MF CMakeFiles/Library.dir/src/model/Default.cpp.o.d -o CMakeFiles/Library.dir/src/model/Default.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object library/CMakeFiles/Library.dir/src/model/Default.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/Default.cpp.o -MF CMakeFiles/Library.dir/src/model/Default.cpp.o.d -o CMakeFiles/Library.dir/src/model/Default.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp
 
 library/CMakeFiles/Library.dir/src/model/Default.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/Default.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp > CMakeFiles/Library.dir/src/model/Default.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp > CMakeFiles/Library.dir/src/model/Default.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/Default.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/Default.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp -o CMakeFiles/Library.dir/src/model/Default.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/Default.cpp -o CMakeFiles/Library.dir/src/model/Default.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/VIP.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/VIP.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp
+library/CMakeFiles/Library.dir/src/model/VIP.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp
 library/CMakeFiles/Library.dir/src/model/VIP.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object library/CMakeFiles/Library.dir/src/model/VIP.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/VIP.cpp.o -MF CMakeFiles/Library.dir/src/model/VIP.cpp.o.d -o CMakeFiles/Library.dir/src/model/VIP.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object library/CMakeFiles/Library.dir/src/model/VIP.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/VIP.cpp.o -MF CMakeFiles/Library.dir/src/model/VIP.cpp.o.d -o CMakeFiles/Library.dir/src/model/VIP.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp
 
 library/CMakeFiles/Library.dir/src/model/VIP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/VIP.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp > CMakeFiles/Library.dir/src/model/VIP.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp > CMakeFiles/Library.dir/src/model/VIP.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/VIP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/VIP.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp -o CMakeFiles/Library.dir/src/model/VIP.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/VIP.cpp -o CMakeFiles/Library.dir/src/model/VIP.cpp.s
 
 library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp
+library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp
 library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o -MF CMakeFiles/Library.dir/src/StorageContainer.cpp.o.d -o CMakeFiles/Library.dir/src/StorageContainer.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/StorageContainer.cpp.o -MF CMakeFiles/Library.dir/src/StorageContainer.cpp.o.d -o CMakeFiles/Library.dir/src/StorageContainer.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp
 
 library/CMakeFiles/Library.dir/src/StorageContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/StorageContainer.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp > CMakeFiles/Library.dir/src/StorageContainer.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp > CMakeFiles/Library.dir/src/StorageContainer.cpp.i
 
 library/CMakeFiles/Library.dir/src/StorageContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/StorageContainer.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp -o CMakeFiles/Library.dir/src/StorageContainer.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/StorageContainer.cpp -o CMakeFiles/Library.dir/src/StorageContainer.cpp.s
 
 library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp
+library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp
 library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp
 
 library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp > CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp > CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.i
 
 library/CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/RestaurantRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/RestaurantRepositories.cpp.s
 
 library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp
+library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp
 library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp
 
 library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp > CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp > CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.i
 
 library/CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ClientRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/ClientRepositories.cpp.s
 
 library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp
+library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp
 library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp
 
 library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp > CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp > CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.i
 
 library/CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/ReservationRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/ReservationRepositories.cpp.s
 
 library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp
+library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp
 library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o -MF CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o.d -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp
 
 library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp > CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp > CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.i
 
 library/CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/repositories/TableRepositories.cpp -o CMakeFiles/Library.dir/src/repositories/TableRepositories.cpp.s
 
 library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
+library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
 library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/TableManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/TableManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp
 
 library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/TableManager.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp > CMakeFiles/Library.dir/src/managers/TableManager.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp > CMakeFiles/Library.dir/src/managers/TableManager.cpp.i
 
 library/CMakeFiles/Library.dir/src/managers/TableManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/TableManager.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/TableManager.cpp -o CMakeFiles/Library.dir/src/managers/TableManager.cpp.s
 
 library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
+library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
 library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp
 
 library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp > CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp > CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.i
 
 library/CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ReservationManager.cpp -o CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.s
 
 library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp
+library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp
 library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp
 
 library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/ClientManager.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp > CMakeFiles/Library.dir/src/managers/ClientManager.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp > CMakeFiles/Library.dir/src/managers/ClientManager.cpp.i
 
 library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/ClientManager.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp -o CMakeFiles/Library.dir/src/managers/ClientManager.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/ClientManager.cpp -o CMakeFiles/Library.dir/src/managers/ClientManager.cpp.s
 
 library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp
+library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp
 library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o -MF CMakeFiles/Library.dir/src/model/ClientType.cpp.o.d -o CMakeFiles/Library.dir/src/model/ClientType.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o -MF CMakeFiles/Library.dir/src/model/ClientType.cpp.o.d -o CMakeFiles/Library.dir/src/model/ClientType.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp
 
 library/CMakeFiles/Library.dir/src/model/ClientType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/ClientType.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp > CMakeFiles/Library.dir/src/model/ClientType.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp > CMakeFiles/Library.dir/src/model/ClientType.cpp.i
 
 library/CMakeFiles/Library.dir/src/model/ClientType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/ClientType.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp -o CMakeFiles/Library.dir/src/model/ClientType.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/ClientType.cpp -o CMakeFiles/Library.dir/src/model/ClientType.cpp.s
 
 library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o: /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp
+library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp
 library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o -c /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o -MF CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o.d -o CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp
 
 library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.i"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp > CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.i
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp > CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.i
 
 library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.s"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp -o CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.s
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/managers/RestaurantManager.cpp -o CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.s
+
+library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o: /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/RestaurantApp.cpp
+library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o: library/CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o -MF CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o.d -o CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o -c /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/RestaurantApp.cpp
+
+library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.i"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/RestaurantApp.cpp > CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.i
+
+library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.s"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library/src/model/RestaurantApp.cpp -o CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -343,7 +357,8 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/managers/ReservationManager.cpp.o" \
 "CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o" \
 "CMakeFiles/Library.dir/src/model/ClientType.cpp.o" \
-"CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o"
+"CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o" \
+"CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -366,21 +381,22 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/managers/ReservationMan
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/ClientType.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/managers/RestaurantManager.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libLibrary.a"
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libLibrary.a"
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/CMakeFiles/Library.dir/build: library/libLibrary.a
 .PHONY : library/CMakeFiles/Library.dir/build
 
 library/CMakeFiles/Library.dir/clean:
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/Library.dir/clean
 
 library/CMakeFiles/Library.dir/depend:
-	cd /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/library /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library /home/student/Pulpit/PROJEKT/most_pn_0815_04/Restaurant/start/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/library /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library /home/student/Pulpit/project/most_pn_0815_04/Restaurant/start/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/Library.dir/depend
 

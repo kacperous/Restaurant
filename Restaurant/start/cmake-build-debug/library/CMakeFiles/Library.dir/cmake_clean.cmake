@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Library.dir/src/model/Reservation.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Restaurant.cpp.o"
   "CMakeFiles/Library.dir/src/model/Restaurant.cpp.o.d"
+  "CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o"
+  "CMakeFiles/Library.dir/src/model/RestaurantApp.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/Table.cpp.o"
   "CMakeFiles/Library.dir/src/model/Table.cpp.o.d"
   "CMakeFiles/Library.dir/src/model/VIP.cpp.o"
